@@ -13,721 +13,726 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\copy_to_intermediate">
+    <Filter Include="Header Files\copy_to_work">
       <UniqueIdentifier>{effa9b9d-39b2-4fa7-a6a5-51fe70c4022c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\copy_to_output">
-      <UniqueIdentifier>{0f0ee3e6-d3f2-44cc-805a-a91d95f6ec87}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto">
-      <UniqueIdentifier>{766de85b-332d-4660-8e1f-5cda0b76c8b1}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\aes">
-      <UniqueIdentifier>{27a60130-af94-42bf-8ab7-22b3e974f90b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\asn1">
-      <UniqueIdentifier>{73e5da87-c57b-433f-9410-579b165dc770}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\bf">
-      <UniqueIdentifier>{d38f9164-4a51-46b1-95a1-836aaa1a7581}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\bio">
-      <UniqueIdentifier>{e34a66ff-be45-444d-bc10-f836af6d5887}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\bn">
-      <UniqueIdentifier>{cfc6e696-f639-4f25-98da-2f78b78a5e0c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\buffer">
-      <UniqueIdentifier>{c79f3f6f-8136-47db-82ab-19981f83e07a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\camellia">
-      <UniqueIdentifier>{133ef5c4-376a-4390-8cc2-2db251c6dada}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\cast">
-      <UniqueIdentifier>{5bfe2d4d-feab-4d7a-acb8-29e3e42f1193}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\cmac">
-      <UniqueIdentifier>{abb688c7-caad-45c9-91da-53bcea18a267}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\cms">
-      <UniqueIdentifier>{faceb92b-82ed-4567-967a-bbeee3b022fb}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\comp">
-      <UniqueIdentifier>{c3a72ff4-0bc0-4066-992a-f866ba0fecc4}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\conf">
-      <UniqueIdentifier>{7387fb84-5e64-47aa-9cd3-6a6d24ffb807}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\des">
-      <UniqueIdentifier>{1533a21a-433a-4a46-a530-f3d87e22061f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\dh">
-      <UniqueIdentifier>{d8704b55-7e69-4261-a0ad-bf5c15e8539c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\dsa">
-      <UniqueIdentifier>{c1c51513-a82b-45dc-bb93-bc58e9daf0bc}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\dso">
-      <UniqueIdentifier>{f59a3d01-fd19-43e5-a1ac-792a45433b23}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\ec">
-      <UniqueIdentifier>{a8a7e692-30b2-4bb5-a6de-8dc67e6521b5}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\ecdh">
-      <UniqueIdentifier>{d662ede0-e6b7-4006-b477-503a1c79277a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\ecdsa">
-      <UniqueIdentifier>{2cf0e711-1f12-43ad-8df8-a6c73c4dbb1e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\engine">
-      <UniqueIdentifier>{cde2e46f-d09f-4c1e-bda0-047e36b31df5}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\err">
-      <UniqueIdentifier>{c183ef34-4b5c-4849-a34e-553a3432b6d1}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\evp">
-      <UniqueIdentifier>{b835016b-ed25-4b6d-a0d9-98e59814d9b0}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\hmac">
-      <UniqueIdentifier>{ccb3c5a0-8bb9-4101-9d30-ce6e58285adc}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\idea">
-      <UniqueIdentifier>{f93d9dc3-18fe-4e5f-960b-8ef1b30129de}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\krb5">
-      <UniqueIdentifier>{888ee378-5a44-400a-9ecb-6c73c8901eaa}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\lhash">
-      <UniqueIdentifier>{b6178bc7-69ed-449f-9901-188efb9f2dd6}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\md4">
-      <UniqueIdentifier>{8be5d577-1647-414b-bc7d-a837f7865160}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\md5">
-      <UniqueIdentifier>{afe39648-66fd-4a60-b1e6-23d2e3794ee3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\mdc2">
-      <UniqueIdentifier>{f905c919-0efe-4f6c-94db-35bbe5bf119c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\modes">
-      <UniqueIdentifier>{db7f126e-dfd1-418b-b36d-1093c230a8c9}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\objects">
-      <UniqueIdentifier>{d6793766-a16a-416b-8e7c-495f3ccc4e73}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\ocsp">
-      <UniqueIdentifier>{62a645ba-5388-4c62-9e86-993fcd457558}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\pem">
-      <UniqueIdentifier>{f0597f59-b096-4ec7-bb36-0a42b9efb982}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\pkcs12">
-      <UniqueIdentifier>{ce58e6d4-cf5f-430b-a09d-7d90aecd48fc}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\pkcs7">
-      <UniqueIdentifier>{8745c82e-5b40-455c-8a5f-bd82ac0b0c80}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\pqueue">
-      <UniqueIdentifier>{90555835-22a1-4c2c-97cf-1090b9232f05}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\rand">
-      <UniqueIdentifier>{0a5c6904-78f6-4772-b223-aff15e28408d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\rc2">
-      <UniqueIdentifier>{8368069f-b71f-4c89-bd60-8c79f7a602a9}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\rc4">
-      <UniqueIdentifier>{e00d1208-acd3-496d-8432-f91a43d64ae9}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\ripemd">
-      <UniqueIdentifier>{d604c8b9-e876-454b-9772-98111a296dab}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\rsa">
-      <UniqueIdentifier>{9fd63f36-10aa-4d0d-a679-b78f24451f09}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\seed">
-      <UniqueIdentifier>{a7b8d562-fe05-4e6d-95e1-35d07f92d8ac}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\sha">
-      <UniqueIdentifier>{2bd13b23-16ce-4993-9755-25b808647eab}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\srp">
-      <UniqueIdentifier>{7bd25f7b-6e68-4e77-8f76-1c3d01057783}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\stack">
-      <UniqueIdentifier>{c9d9c5fc-7ef8-49dc-ac92-a525ffe8d329}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\ts">
-      <UniqueIdentifier>{8fd3ebf3-3f50-4b0a-bb46-58ae2162a19e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\txt_db">
-      <UniqueIdentifier>{03fe3be6-2c93-4371-82b6-4dbd4bf150de}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\ui">
-      <UniqueIdentifier>{379e059b-3700-4fc1-94c0-b4b2847d8748}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\whrlpool">
-      <UniqueIdentifier>{978783a0-8383-4083-af42-6f626e6f96a6}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\x509">
-      <UniqueIdentifier>{2b664317-7a59-423a-9a0d-e193fa1b8d53}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\crypto\x509v3">
-      <UniqueIdentifier>{4188bb2f-aee2-4abe-abfd-1d9f1e075faf}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_output\ssl">
-      <UniqueIdentifier>{395b696f-c9a3-4c8e-9a32-2acf7c3070d0}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\copy_to_intermediate\crypto">
+    <Filter Include="Header Files\copy_to_work\crypto">
       <UniqueIdentifier>{6eebed04-5a2e-4a28-9445-4c41ec048c5f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\copy_to_intermediate\crypto\aes">
+    <Filter Include="Header Files\copy_to_work\crypto\aes">
       <UniqueIdentifier>{9c38d661-4e3f-449e-9832-e62c4bb0d44c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\copy_to_intermediate\crypto\asn1">
+    <Filter Include="Header Files\copy_to_work\crypto\asn1">
       <UniqueIdentifier>{3bf8ed99-5044-4320-9fd3-558484999657}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\copy_to_intermediate\crypto\bf">
+    <Filter Include="Header Files\copy_to_work\crypto\bf">
       <UniqueIdentifier>{0e7a631c-0f19-4f76-a092-84d2cac9ace2}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\copy_to_intermediate\crypto\bio">
+    <Filter Include="Header Files\copy_to_work\crypto\bio">
       <UniqueIdentifier>{3326c4ab-dc3c-4c6b-ac11-8a96e2802eb4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\copy_to_intermediate\crypto\bn">
+    <Filter Include="Header Files\copy_to_work\crypto\bn">
       <UniqueIdentifier>{652e4c8f-ae68-4887-a5ca-81052411ac3d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\copy_to_intermediate\crypto\camellia">
+    <Filter Include="Header Files\copy_to_work\crypto\camellia">
       <UniqueIdentifier>{814f3ad7-d557-4644-aac9-893bb860bebe}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\copy_to_intermediate\crypto\cast">
+    <Filter Include="Header Files\copy_to_work\crypto\cast">
       <UniqueIdentifier>{31e8f661-0951-410a-aaa5-a4cc5304a0ff}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\copy_to_intermediate\crypto\cms">
+    <Filter Include="Header Files\copy_to_work\crypto\cms">
       <UniqueIdentifier>{c41962bd-146c-4d0e-95d0-01a5ffec9231}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\copy_to_intermediate\crypto\conf">
+    <Filter Include="Header Files\copy_to_work\crypto\conf">
       <UniqueIdentifier>{a3676528-c6cb-4d22-ad88-833b182920d0}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\copy_to_intermediate\crypto\des">
+    <Filter Include="Header Files\copy_to_work\crypto\des">
       <UniqueIdentifier>{2372de9a-74dc-47c3-aa70-4e606469fd78}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\copy_to_intermediate\crypto\dsa">
+    <Filter Include="Header Files\copy_to_work\crypto\dsa">
       <UniqueIdentifier>{01de431a-2dbd-43d5-b8ed-17df0dcb51db}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\copy_to_intermediate\crypto\ec">
+    <Filter Include="Header Files\copy_to_work\crypto\ec">
       <UniqueIdentifier>{91ad7b14-b8c6-43bc-bc98-cdb0909e51a4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\copy_to_intermediate\crypto\ecdh">
+    <Filter Include="Header Files\copy_to_work\crypto\ecdh">
       <UniqueIdentifier>{ea68dbe7-e94d-4388-ac56-64d709643f92}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\copy_to_intermediate\crypto\ecdsa">
+    <Filter Include="Header Files\copy_to_work\crypto\ecdsa">
       <UniqueIdentifier>{91107e0a-882a-4e7a-97d2-a7366e751b19}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\copy_to_intermediate\crypto\evp">
+    <Filter Include="Header Files\copy_to_work\crypto\evp">
       <UniqueIdentifier>{c77d52e7-8f2b-4ce5-aecd-3b74d8764af1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\copy_to_intermediate\crypto\idea">
+    <Filter Include="Header Files\copy_to_work\crypto\idea">
       <UniqueIdentifier>{027b0dbd-8c55-42ae-aa16-aa5a265b28b5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\copy_to_intermediate\crypto\md4">
+    <Filter Include="Header Files\copy_to_work\crypto\md4">
       <UniqueIdentifier>{4ecbbf27-9ea8-41f2-9ede-9d7f73f73dd6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\copy_to_intermediate\crypto\md5">
+    <Filter Include="Header Files\copy_to_work\crypto\md5">
       <UniqueIdentifier>{e87fcff8-8388-43ca-96f7-1d333fbea860}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\copy_to_intermediate\crypto\modes">
+    <Filter Include="Header Files\copy_to_work\crypto\modes">
       <UniqueIdentifier>{7091dc1c-adef-46df-ab8b-36d0f8b9b410}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\copy_to_intermediate\crypto\objects">
+    <Filter Include="Header Files\copy_to_work\crypto\objects">
       <UniqueIdentifier>{e027fcf1-bb0d-4dbb-8614-4a9350c29133}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\copy_to_intermediate\crypto\rc2">
+    <Filter Include="Header Files\copy_to_work\crypto\rc2">
       <UniqueIdentifier>{25e4e9b1-1388-4402-bf6f-5433d262099a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\copy_to_intermediate\crypto\rc4">
+    <Filter Include="Header Files\copy_to_work\crypto\rc4">
       <UniqueIdentifier>{97fce0fe-adbc-4b34-82d3-937dd0eaf7ff}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\copy_to_intermediate\crypto\ripemd">
+    <Filter Include="Header Files\copy_to_work\crypto\ripemd">
       <UniqueIdentifier>{4b26dc60-f88b-49c5-9986-8bd1f726c65a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\copy_to_intermediate\crypto\seed">
+    <Filter Include="Header Files\copy_to_work\crypto\seed">
       <UniqueIdentifier>{6203bf2e-1bfc-4266-95ce-545fd23abc99}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\copy_to_intermediate\crypto\sha">
+    <Filter Include="Header Files\copy_to_work\crypto\sha">
       <UniqueIdentifier>{d71b6b8e-7843-47b2-bb8c-8bdd959e3c6d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\copy_to_intermediate\crypto\ui">
+    <Filter Include="Header Files\copy_to_work\crypto\ui">
       <UniqueIdentifier>{823c68e1-2e28-49c6-a910-20bcd503391a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\copy_to_intermediate\crypto\whrlpool">
+    <Filter Include="Header Files\copy_to_work\crypto\whrlpool">
       <UniqueIdentifier>{fc2efc6d-afab-4b2e-8c0b-66cfa944da67}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\copy_to_intermediate\crypto\x509">
+    <Filter Include="Header Files\copy_to_work\crypto\x509">
       <UniqueIdentifier>{b6f5b669-baa7-4db7-9b04-7419b79e606f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\copy_to_intermediate\crypto\x509v3">
+    <Filter Include="Header Files\copy_to_work\crypto\x509v3">
       <UniqueIdentifier>{8deaa1dc-58ce-4ef0-b17f-8f92f8b4828a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\copy_to_intermediate\apps">
+    <Filter Include="Header Files\copy_to_work\apps">
       <UniqueIdentifier>{cccd9059-d5b2-4bfb-b73d-49a1e85eaf3b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\copy_to_intermediate\engines">
+    <Filter Include="Header Files\copy_to_work\engines">
       <UniqueIdentifier>{e865216f-e2ca-4cb6-a379-1329e2e6ab70}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\copy_to_intermediate\ssl">
+    <Filter Include="Header Files\copy_to_work\ssl">
       <UniqueIdentifier>{dcac43c1-b1ab-4817-8823-dad7a966f6ac}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\copy_to_intermediate\test">
+    <Filter Include="Header Files\copy_to_work\test">
       <UniqueIdentifier>{77f04476-4e22-4a99-830b-695fce9d6953}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include">
+      <UniqueIdentifier>{0f0ee3e6-d3f2-44cc-805a-a91d95f6ec87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto">
+      <UniqueIdentifier>{766de85b-332d-4660-8e1f-5cda0b76c8b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\aes">
+      <UniqueIdentifier>{27a60130-af94-42bf-8ab7-22b3e974f90b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\asn1">
+      <UniqueIdentifier>{73e5da87-c57b-433f-9410-579b165dc770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\bf">
+      <UniqueIdentifier>{d38f9164-4a51-46b1-95a1-836aaa1a7581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\bio">
+      <UniqueIdentifier>{e34a66ff-be45-444d-bc10-f836af6d5887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\bn">
+      <UniqueIdentifier>{cfc6e696-f639-4f25-98da-2f78b78a5e0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\buffer">
+      <UniqueIdentifier>{c79f3f6f-8136-47db-82ab-19981f83e07a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\camellia">
+      <UniqueIdentifier>{133ef5c4-376a-4390-8cc2-2db251c6dada}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\cast">
+      <UniqueIdentifier>{5bfe2d4d-feab-4d7a-acb8-29e3e42f1193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\cmac">
+      <UniqueIdentifier>{abb688c7-caad-45c9-91da-53bcea18a267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\cms">
+      <UniqueIdentifier>{faceb92b-82ed-4567-967a-bbeee3b022fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\comp">
+      <UniqueIdentifier>{c3a72ff4-0bc0-4066-992a-f866ba0fecc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\conf">
+      <UniqueIdentifier>{7387fb84-5e64-47aa-9cd3-6a6d24ffb807}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\des">
+      <UniqueIdentifier>{1533a21a-433a-4a46-a530-f3d87e22061f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\dh">
+      <UniqueIdentifier>{d8704b55-7e69-4261-a0ad-bf5c15e8539c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\dsa">
+      <UniqueIdentifier>{c1c51513-a82b-45dc-bb93-bc58e9daf0bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\dso">
+      <UniqueIdentifier>{f59a3d01-fd19-43e5-a1ac-792a45433b23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\ec">
+      <UniqueIdentifier>{a8a7e692-30b2-4bb5-a6de-8dc67e6521b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\ecdh">
+      <UniqueIdentifier>{d662ede0-e6b7-4006-b477-503a1c79277a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\ecdsa">
+      <UniqueIdentifier>{2cf0e711-1f12-43ad-8df8-a6c73c4dbb1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\engine">
+      <UniqueIdentifier>{cde2e46f-d09f-4c1e-bda0-047e36b31df5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\err">
+      <UniqueIdentifier>{c183ef34-4b5c-4849-a34e-553a3432b6d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\evp">
+      <UniqueIdentifier>{b835016b-ed25-4b6d-a0d9-98e59814d9b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\hmac">
+      <UniqueIdentifier>{ccb3c5a0-8bb9-4101-9d30-ce6e58285adc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\idea">
+      <UniqueIdentifier>{f93d9dc3-18fe-4e5f-960b-8ef1b30129de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\krb5">
+      <UniqueIdentifier>{888ee378-5a44-400a-9ecb-6c73c8901eaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\lhash">
+      <UniqueIdentifier>{b6178bc7-69ed-449f-9901-188efb9f2dd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\md4">
+      <UniqueIdentifier>{8be5d577-1647-414b-bc7d-a837f7865160}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\md5">
+      <UniqueIdentifier>{afe39648-66fd-4a60-b1e6-23d2e3794ee3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\mdc2">
+      <UniqueIdentifier>{f905c919-0efe-4f6c-94db-35bbe5bf119c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\modes">
+      <UniqueIdentifier>{db7f126e-dfd1-418b-b36d-1093c230a8c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\objects">
+      <UniqueIdentifier>{d6793766-a16a-416b-8e7c-495f3ccc4e73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\ocsp">
+      <UniqueIdentifier>{62a645ba-5388-4c62-9e86-993fcd457558}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\pem">
+      <UniqueIdentifier>{f0597f59-b096-4ec7-bb36-0a42b9efb982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\pkcs12">
+      <UniqueIdentifier>{ce58e6d4-cf5f-430b-a09d-7d90aecd48fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\pkcs7">
+      <UniqueIdentifier>{8745c82e-5b40-455c-8a5f-bd82ac0b0c80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\pqueue">
+      <UniqueIdentifier>{90555835-22a1-4c2c-97cf-1090b9232f05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\rand">
+      <UniqueIdentifier>{0a5c6904-78f6-4772-b223-aff15e28408d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\rc2">
+      <UniqueIdentifier>{8368069f-b71f-4c89-bd60-8c79f7a602a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\rc4">
+      <UniqueIdentifier>{e00d1208-acd3-496d-8432-f91a43d64ae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\ripemd">
+      <UniqueIdentifier>{d604c8b9-e876-454b-9772-98111a296dab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\rsa">
+      <UniqueIdentifier>{9fd63f36-10aa-4d0d-a679-b78f24451f09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\seed">
+      <UniqueIdentifier>{a7b8d562-fe05-4e6d-95e1-35d07f92d8ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\sha">
+      <UniqueIdentifier>{2bd13b23-16ce-4993-9755-25b808647eab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\srp">
+      <UniqueIdentifier>{7bd25f7b-6e68-4e77-8f76-1c3d01057783}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\stack">
+      <UniqueIdentifier>{c9d9c5fc-7ef8-49dc-ac92-a525ffe8d329}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\ts">
+      <UniqueIdentifier>{8fd3ebf3-3f50-4b0a-bb46-58ae2162a19e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\txt_db">
+      <UniqueIdentifier>{03fe3be6-2c93-4371-82b6-4dbd4bf150de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\ui">
+      <UniqueIdentifier>{379e059b-3700-4fc1-94c0-b4b2847d8748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\whrlpool">
+      <UniqueIdentifier>{978783a0-8383-4083-af42-6f626e6f96a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\x509">
+      <UniqueIdentifier>{2b664317-7a59-423a-9a0d-e193fa1b8d53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\crypto\x509v3">
+      <UniqueIdentifier>{4188bb2f-aee2-4abe-abfd-1d9f1e075faf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\copy_to_include\ssl">
+      <UniqueIdentifier>{395b696f-c9a3-4c8e-9a32-2acf7c3070d0}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <CopyFileToFolders Include="..\..\apps\apps.h">
-      <Filter>Header Files</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\apps\progs.h">
-      <Filter>Header Files</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\apps\s_apps.h">
-      <Filter>Header Files</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\apps\testdsa.h">
-      <Filter>Header Files</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\apps\testrsa.h">
-      <Filter>Header Files</Filter>
-    </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\aes\aes.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\aes</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\aes\aes_locl.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\crypto\aes</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\asn1\asn1.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\asn1</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\asn1\asn1t.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\asn1</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\asn1\asn1_locl.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\crypto\asn1</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\asn1\asn1_mac.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\asn1</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\bf\bf_locl.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\crypto\bf</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\bf\bf_pi.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\crypto\bf</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\bf\blowfish.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\bf</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\bio\bio.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\bio</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\bio\bio_lcl.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\crypto\bio</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\bn\bn.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\bn</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\bn\bn_lcl.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\crypto\bn</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\bn\bn_prime.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\crypto\bn</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\bn_int.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\buffer\buffer.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\buffer</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\camellia\camellia.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\camellia</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\camellia\cmll_locl.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\crypto\camellia</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\cast\cast.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\cast</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\cast\cast_lcl.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\crypto\cast</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\cast\cast_s.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\crypto\cast</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\cmac\cmac.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\cmac</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\cms\cms.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\cms</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\cms\cms_lcl.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\crypto\cms</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\comp\comp.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\comp</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\conf\conf.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\conf</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\conf\conf_api.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\conf</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\conf\conf_def.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\crypto\conf</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\constant_time_locl.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\crypto</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\cryptlib.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\crypto</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\crypto.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\des\des.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\des</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\des\des_locl.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\crypto\des</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\des\des_old.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\des</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\des\des_ver.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\crypto\des</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\des\rpc_des.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\crypto\des</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\des\spr.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\crypto\des</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\dh\dh.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\dh</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\dsa\dsa.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\dsa</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\dsa\dsa_locl.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\crypto\dsa</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\dso\dso.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\dso</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\ebcdic.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\ecdh\ecdh.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\ecdh</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\ecdh\ech_locl.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\crypto\ecdh</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\ecdsa\ecdsa.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\ecdsa</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\ecdsa\ecs_locl.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\crypto\ecdsa</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\ec\ec.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\ec</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\ec\ec_lcl.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\crypto\ec</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\engine\engine.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\engine</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\err\err.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\err</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\evp\evp.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\evp</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\evp\evp_locl.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\crypto\evp</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\hmac\hmac.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\hmac</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\idea\idea.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\idea</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\idea\idea_lcl.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\crypto\idea</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\krb5\krb5_asn.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\krb5</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\lhash\lhash.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\lhash</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\md32_common.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\crypto</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\md4\md4.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\md4</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\md4\md4_locl.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\crypto\md4</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\md5\md5.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\md5</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\md5\md5_locl.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\crypto\md5</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\mdc2\mdc2.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\mdc2</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\modes\modes.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\modes</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\modes\modes_lcl.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\crypto\modes</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\objects\objects.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\objects</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\objects\obj_dat.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\crypto\objects</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\objects\obj_mac.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\objects</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\objects\obj_xref.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\crypto\objects</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\ocsp\ocsp.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\ocsp</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\opensslconf.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\opensslv.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\ossl_typ.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\o_dir.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\crypto</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\o_str.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\crypto</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\o_time.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\crypto</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\pem\pem.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\pem</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\pem\pem2.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\pem</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\pkcs12\pkcs12.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\pkcs12</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\pkcs7\pkcs7.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\pkcs7</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\pqueue\pqueue.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\pqueue</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\rand\rand.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\rand</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\rc2\rc2.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\rc2</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\rc2\rc2_locl.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\crypto\rc2</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\rc4\rc4.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\rc4</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\rc4\rc4_locl.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\crypto\rc4</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\ripemd\ripemd.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\ripemd</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\ripemd\rmdconst.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\crypto\ripemd</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\ripemd\rmd_locl.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\crypto\ripemd</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\rsa\rsa.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\rsa</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\seed\seed.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\seed</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\seed\seed_locl.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\crypto\seed</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\sha\sha.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\sha</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\sha\sha_locl.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\crypto\sha</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\srp\srp.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\srp</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\stack\safestack.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\stack</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\stack\stack.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\stack</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\symhacks.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\ts\ts.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\ts</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\txt_db\txt_db.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\txt_db</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\ui\ui.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\ui</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\ui\ui_compat.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\ui</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\ui\ui_locl.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\crypto\ui</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\whrlpool\whrlpool.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\whrlpool</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\whrlpool\wp_locl.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\crypto\whrlpool</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\x509v3\pcy_int.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\crypto\x509v3</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\x509v3\x509v3.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\x509v3</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\x509\vpm_int.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\crypto\x509</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\x509\x509.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\x509</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\crypto\x509\x509_vfy.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\crypto\x509</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\engines\e_4758cca_err.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\engines</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\engines\e_aep_err.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\engines</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\engines\e_atalla_err.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\engines</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\engines\e_capi_err.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\engines</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\engines\e_chil_err.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\engines</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\engines\e_cswift_err.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\engines</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\engines\e_gmp_err.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\engines</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\engines\e_nuron_err.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\engines</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\engines\e_sureware_err.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\engines</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\engines\e_ubsec_err.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\engines</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\e_os.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\e_os2.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\ssl\dtls1.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\ssl</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\ssl\kssl.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\ssl</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\ssl\kssl_lcl.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\ssl</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\ssl\srtp.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\ssl</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\ssl\ssl.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\ssl</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\ssl\ssl2.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\ssl</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\ssl\ssl23.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\ssl</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\ssl\ssl3.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\ssl</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\ssl\ssl_locl.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\ssl</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\ssl\tls1.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_include\ssl</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\test\ssltestlib.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\test</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\test\testutil.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\copy_to_work\test</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\engines\e_4758cca_err.c">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files\copy_to_work\engines</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\engines\e_aep_err.c">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files\copy_to_work\engines</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\engines\e_atalla_err.c">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files\copy_to_work\engines</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\engines\e_capi_err.c">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files\copy_to_work\engines</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\engines\e_chil_err.c">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files\copy_to_work\engines</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\engines\e_cswift_err.c">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files\copy_to_work\engines</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\engines\e_gmp_err.c">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files\copy_to_work\engines</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\engines\e_nuron_err.c">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files\copy_to_work\engines</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\engines\e_sureware_err.c">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files\copy_to_work\engines</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\engines\e_ubsec_err.c">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files\copy_to_work\engines</Filter>
     </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\apps\apps.h">
+      <Filter>Header Files\copy_to_work\apps</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\apps\progs.h">
+      <Filter>Header Files\copy_to_work\apps</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\apps\s_apps.h">
+      <Filter>Header Files\copy_to_work\apps</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\apps\testdsa.h">
+      <Filter>Header Files\copy_to_work\apps</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\apps\testrsa.h">
+      <Filter>Header Files\copy_to_work\apps</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\crypto\buildinf.h">
+      <Filter>Header Files\copy_to_work\crypto</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
