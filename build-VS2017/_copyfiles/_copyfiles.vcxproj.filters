@@ -280,6 +280,9 @@
     <Filter Include="Header Files\copy_to_include\ssl">
       <UniqueIdentifier>{395b696f-c9a3-4c8e-9a32-2acf7c3070d0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\copy_to_include\ms">
+      <UniqueIdentifier>{c852d3d0-f077-4852-96b0-533afb163901}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <CopyFileToFolders Include="..\..\crypto\aes\aes.h">
@@ -729,10 +732,11 @@
     <CopyFileToFolders Include="..\..\apps\testrsa.h">
       <Filter>Header Files\copy_to_work\apps</Filter>
     </CopyFileToFolders>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\crypto\buildinf.h">
+    <CopyFileToFolders Include="..\..\crypto\buildinf.h">
       <Filter>Header Files\copy_to_work\crypto</Filter>
-    </ClInclude>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\ms\applink.c">
+      <Filter>Header Files\copy_to_include\ms</Filter>
+    </CopyFileToFolders>
   </ItemGroup>
 </Project>
