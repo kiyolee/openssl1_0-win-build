@@ -282,451 +282,452 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\apps\s_apps.h">
-      <Filter>Source Files\copy_to_intermediate\apps</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\apps\testdsa.h">
-      <Filter>Source Files\copy_to_intermediate\apps</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\apps\testrsa.h">
-      <Filter>Source Files\copy_to_intermediate\apps</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\apps\apps.h">
-      <Filter>Source Files\copy_to_intermediate\apps</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\apps\progs.h">
-      <Filter>Source Files\copy_to_intermediate\apps</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\e_os.h">
-      <Filter>Source Files\copy_to_intermediate</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\engines\e_nuron_err.h">
-      <Filter>Source Files\copy_to_intermediate\engines</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\engines\e_sureware_err.h">
-      <Filter>Source Files\copy_to_intermediate\engines</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\engines\e_ubsec_err.h">
-      <Filter>Source Files\copy_to_intermediate\engines</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\engines\e_4758cca_err.h">
-      <Filter>Source Files\copy_to_intermediate\engines</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\engines\e_aep_err.h">
-      <Filter>Source Files\copy_to_intermediate\engines</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\engines\e_atalla_err.h">
-      <Filter>Source Files\copy_to_intermediate\engines</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\engines\e_capi_err.h">
-      <Filter>Source Files\copy_to_intermediate\engines</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\engines\e_chil_err.h">
-      <Filter>Source Files\copy_to_intermediate\engines</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\engines\e_cswift_err.h">
-      <Filter>Source Files\copy_to_intermediate\engines</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\engines\e_gmp_err.h">
-      <Filter>Source Files\copy_to_intermediate\engines</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\ssl\ssl_locl.h">
-      <Filter>Source Files\copy_to_intermediate\ssl</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\ssl\kssl_lcl.h">
-      <Filter>Source Files\copy_to_intermediate\ssl</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\test\ssltestlib.h">
-      <Filter>Source Files\copy_to_intermediate\test</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\test\testutil.h">
-      <Filter>Source Files\copy_to_intermediate\test</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\aes\aes_locl.h">
-      <Filter>Source Files\copy_to_intermediate\crypto\aes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\asn1\asn1_locl.h">
-      <Filter>Source Files\copy_to_intermediate\crypto\asn1</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\bf\bf_pi.h">
-      <Filter>Source Files\copy_to_intermediate\crypto\bf</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\bf\bf_locl.h">
-      <Filter>Source Files\copy_to_intermediate\crypto\bf</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\bio\bio_lcl.h">
-      <Filter>Source Files\copy_to_intermediate\crypto\bio</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\bn\bn_lcl.h">
-      <Filter>Source Files\copy_to_intermediate\crypto\bn</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\bn\bn_prime.h">
-      <Filter>Source Files\copy_to_intermediate\crypto\bn</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\bn_int.h">
-      <Filter>Source Files\copy_to_intermediate\crypto</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\camellia\cmll_locl.h">
-      <Filter>Source Files\copy_to_intermediate\crypto\camellia</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\cast\cast_lcl.h">
-      <Filter>Source Files\copy_to_intermediate\crypto\cast</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\cast\cast_s.h">
-      <Filter>Source Files\copy_to_intermediate\crypto\cast</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\cms\cms_lcl.h">
-      <Filter>Source Files\copy_to_intermediate\crypto\cms</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\conf\conf_def.h">
-      <Filter>Source Files\copy_to_intermediate\crypto\conf</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\constant_time_locl.h">
-      <Filter>Source Files\copy_to_intermediate\crypto</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\cryptlib.h">
-      <Filter>Source Files\copy_to_intermediate\crypto</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\des\des_ver.h">
-      <Filter>Source Files\copy_to_intermediate\crypto\des</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\des\rpc_des.h">
-      <Filter>Source Files\copy_to_intermediate\crypto\des</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\des\des_locl.h">
-      <Filter>Source Files\copy_to_intermediate\crypto\des</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\des\spr.h">
-      <Filter>Source Files\copy_to_intermediate\crypto\des</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\dsa\dsa_locl.h">
-      <Filter>Source Files\copy_to_intermediate\crypto\dsa</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\ec\ec_lcl.h">
-      <Filter>Source Files\copy_to_intermediate\crypto\ec</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\ecdh\ech_locl.h">
-      <Filter>Source Files\copy_to_intermediate\crypto\ecdh</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\ecdsa\ecs_locl.h">
-      <Filter>Source Files\copy_to_intermediate\crypto\ecdsa</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\evp\evp_locl.h">
-      <Filter>Source Files\copy_to_intermediate\crypto\evp</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\idea\idea_lcl.h">
-      <Filter>Source Files\copy_to_intermediate\crypto\idea</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\md32_common.h">
-      <Filter>Source Files\copy_to_intermediate\crypto</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\md4\md4_locl.h">
-      <Filter>Source Files\copy_to_intermediate\crypto\md4</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\md5\md5_locl.h">
-      <Filter>Source Files\copy_to_intermediate\crypto\md5</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\modes\modes_lcl.h">
-      <Filter>Source Files\copy_to_intermediate\crypto\modes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\o_dir.h">
-      <Filter>Source Files\copy_to_intermediate\crypto</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\o_str.h">
-      <Filter>Source Files\copy_to_intermediate\crypto</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\o_time.h">
-      <Filter>Source Files\copy_to_intermediate\crypto</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\objects\obj_xref.h">
-      <Filter>Source Files\copy_to_intermediate\crypto\objects</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\objects\obj_dat.h">
-      <Filter>Source Files\copy_to_intermediate\crypto\objects</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\rc2\rc2_locl.h">
-      <Filter>Source Files\copy_to_intermediate\crypto\rc2</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\rc4\rc4_locl.h">
-      <Filter>Source Files\copy_to_intermediate\crypto\rc4</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\ripemd\rmd_locl.h">
-      <Filter>Source Files\copy_to_intermediate\crypto\ripemd</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\ripemd\rmdconst.h">
-      <Filter>Source Files\copy_to_intermediate\crypto\ripemd</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\seed\seed_locl.h">
-      <Filter>Source Files\copy_to_intermediate\crypto\seed</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\sha\sha_locl.h">
-      <Filter>Source Files\copy_to_intermediate\crypto\sha</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\ui\ui_locl.h">
-      <Filter>Source Files\copy_to_intermediate\crypto\ui</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\whrlpool\wp_locl.h">
-      <Filter>Source Files\copy_to_intermediate\crypto\whrlpool</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\x509\vpm_int.h">
-      <Filter>Source Files\copy_to_intermediate\crypto\x509</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\x509v3\pcy_int.h">
-      <Filter>Source Files\copy_to_intermediate\crypto\x509v3</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\aes\aes.h">
-      <Filter>Source Files\copy_to_output\crypto\aes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\asn1\asn1.h">
-      <Filter>Source Files\copy_to_output\crypto\asn1</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\asn1\asn1_mac.h">
-      <Filter>Source Files\copy_to_output\crypto\asn1</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\asn1\asn1t.h">
-      <Filter>Source Files\copy_to_output\crypto\asn1</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\bf\blowfish.h">
-      <Filter>Source Files\copy_to_output\crypto\bf</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\bn\bn.h">
-      <Filter>Source Files\copy_to_output\crypto\bn</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\bio\bio.h">
-      <Filter>Source Files\copy_to_output\crypto\bio</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\buffer\buffer.h">
-      <Filter>Source Files\copy_to_output\crypto\buffer</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\camellia\camellia.h">
-      <Filter>Source Files\copy_to_output\crypto\camellia</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\cast\cast.h">
-      <Filter>Source Files\copy_to_output\crypto\cast</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\cmac\cmac.h">
-      <Filter>Source Files\copy_to_output\crypto\cmac</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\cms\cms.h">
-      <Filter>Source Files\copy_to_output\crypto\cms</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\comp\comp.h">
-      <Filter>Source Files\copy_to_output\crypto\comp</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\conf\conf.h">
-      <Filter>Source Files\copy_to_output\crypto\conf</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\conf\conf_api.h">
-      <Filter>Source Files\copy_to_output\crypto\conf</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\crypto.h">
-      <Filter>Source Files\copy_to_output\crypto</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\des\des_old.h">
-      <Filter>Source Files\copy_to_output\crypto\des</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\des\des.h">
-      <Filter>Source Files\copy_to_output\crypto\des</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\dso\dso.h">
-      <Filter>Source Files\copy_to_output\crypto\dso</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\dh\dh.h">
-      <Filter>Source Files\copy_to_output\crypto\dh</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\dsa\dsa.h">
-      <Filter>Source Files\copy_to_output\crypto\dsa</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\ec\ec.h">
-      <Filter>Source Files\copy_to_output\crypto\ec</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\ecdh\ecdh.h">
-      <Filter>Source Files\copy_to_output\crypto\ecdh</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\ecdsa\ecdsa.h">
-      <Filter>Source Files\copy_to_output\crypto\ecdsa</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\engine\engine.h">
-      <Filter>Source Files\copy_to_output\crypto\engine</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\err\err.h">
-      <Filter>Source Files\copy_to_output\crypto\err</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\evp\evp.h">
-      <Filter>Source Files\copy_to_output\crypto\evp</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\hmac\hmac.h">
-      <Filter>Source Files\copy_to_output\crypto\hmac</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\idea\idea.h">
-      <Filter>Source Files\copy_to_output\crypto\idea</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\krb5\krb5_asn.h">
-      <Filter>Source Files\copy_to_output\crypto\krb5</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\lhash\lhash.h">
-      <Filter>Source Files\copy_to_output\crypto\lhash</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\md4\md4.h">
-      <Filter>Source Files\copy_to_output\crypto\md4</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\md5\md5.h">
-      <Filter>Source Files\copy_to_output\crypto\md5</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\mdc2\mdc2.h">
-      <Filter>Source Files\copy_to_output\crypto\mdc2</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\modes\modes.h">
-      <Filter>Source Files\copy_to_output\crypto\modes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\objects\objects.h">
-      <Filter>Source Files\copy_to_output\crypto\objects</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\objects\obj_mac.h">
-      <Filter>Source Files\copy_to_output\crypto\objects</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\ocsp\ocsp.h">
-      <Filter>Source Files\copy_to_output\crypto\ocsp</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\opensslv.h">
-      <Filter>Source Files\copy_to_output\crypto</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\opensslconf.h">
-      <Filter>Source Files\copy_to_output\crypto</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\ossl_typ.h">
-      <Filter>Source Files\copy_to_output\crypto</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\pem\pem2.h">
-      <Filter>Source Files\copy_to_output\crypto\pem</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\pem\pem.h">
-      <Filter>Source Files\copy_to_output\crypto\pem</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\pkcs12\pkcs12.h">
-      <Filter>Source Files\copy_to_output\crypto\pkcs12</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\pkcs7\pkcs7.h">
-      <Filter>Source Files\copy_to_output\crypto\pkcs7</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\pqueue\pqueue.h">
-      <Filter>Source Files\copy_to_output\crypto\pqueue</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\rand\rand.h">
-      <Filter>Source Files\copy_to_output\crypto\rand</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\rc2\rc2.h">
-      <Filter>Source Files\copy_to_output\crypto\rc2</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\rc4\rc4.h">
-      <Filter>Source Files\copy_to_output\crypto\rc4</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\ripemd\ripemd.h">
-      <Filter>Source Files\copy_to_output\crypto\ripemd</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\rsa\rsa.h">
-      <Filter>Source Files\copy_to_output\crypto\rsa</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\seed\seed.h">
-      <Filter>Source Files\copy_to_output\crypto\seed</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\sha\sha.h">
-      <Filter>Source Files\copy_to_output\crypto\sha</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\srp\srp.h">
-      <Filter>Source Files\copy_to_output\crypto\srp</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\stack\stack.h">
-      <Filter>Source Files\copy_to_output\crypto\stack</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\stack\safestack.h">
-      <Filter>Source Files\copy_to_output\crypto\stack</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\ts\ts.h">
-      <Filter>Source Files\copy_to_output\crypto\ts</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\txt_db\txt_db.h">
-      <Filter>Source Files\copy_to_output\crypto\txt_db</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\ui\ui_compat.h">
-      <Filter>Source Files\copy_to_output\crypto\ui</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\ui\ui.h">
-      <Filter>Source Files\copy_to_output\crypto\ui</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\whrlpool\whrlpool.h">
-      <Filter>Source Files\copy_to_output\crypto\whrlpool</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\x509\x509_vfy.h">
-      <Filter>Source Files\copy_to_output\crypto\x509</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\x509\x509.h">
-      <Filter>Source Files\copy_to_output\crypto\x509</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\x509v3\x509v3.h">
-      <Filter>Source Files\copy_to_output\crypto\x509v3</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\crypto\symhacks.h">
-      <Filter>Source Files\copy_to_output\crypto</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\e_os2.h">
-      <Filter>Source Files\copy_to_output</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\ssl\ssl3.h">
-      <Filter>Source Files\copy_to_output\ssl</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\ssl\ssl23.h">
-      <Filter>Source Files\copy_to_output\ssl</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\ssl\tls1.h">
-      <Filter>Source Files\copy_to_output\ssl</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\ssl\dtls1.h">
-      <Filter>Source Files\copy_to_output\ssl</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\ssl\kssl.h">
-      <Filter>Source Files\copy_to_output\ssl</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\ssl\srtp.h">
-      <Filter>Source Files\copy_to_output\ssl</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\ssl\ssl.h">
-      <Filter>Source Files\copy_to_output\ssl</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\ssl\ssl2.h">
-      <Filter>Source Files\copy_to_output\ssl</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\engines\e_nuron_err.c">
-      <Filter>Source Files\copy_to_intermediate\engines</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\engines\e_sureware_err.c">
-      <Filter>Source Files\copy_to_intermediate\engines</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\engines\e_ubsec_err.c">
-      <Filter>Source Files\copy_to_intermediate\engines</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\engines\e_4758cca_err.c">
-      <Filter>Source Files\copy_to_intermediate\engines</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\engines\e_aep_err.c">
-      <Filter>Source Files\copy_to_intermediate\engines</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\engines\e_atalla_err.c">
-      <Filter>Source Files\copy_to_intermediate\engines</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\engines\e_capi_err.c">
-      <Filter>Source Files\copy_to_intermediate\engines</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\engines\e_chil_err.c">
-      <Filter>Source Files\copy_to_intermediate\engines</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\engines\e_cswift_err.c">
-      <Filter>Source Files\copy_to_intermediate\engines</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\engines\e_gmp_err.c">
-      <Filter>Source Files\copy_to_intermediate\engines</Filter>
-    </ClCompile>
+    <CopyFileToFolders Include="..\..\apps\apps.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\apps\progs.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\apps\s_apps.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\apps\testdsa.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\apps\testrsa.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\aes\aes.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\aes\aes_locl.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\asn1\asn1.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\asn1\asn1t.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\asn1\asn1_locl.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\asn1\asn1_mac.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\bf\bf_locl.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\bf\bf_pi.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\bf\blowfish.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\bio\bio.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\bio\bio_lcl.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\bn\bn.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\bn\bn_lcl.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\bn\bn_prime.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\bn_int.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\buffer\buffer.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\camellia\camellia.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\camellia\cmll_locl.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\cast\cast.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\cast\cast_lcl.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\cast\cast_s.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\cmac\cmac.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\cms\cms.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\cms\cms_lcl.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\comp\comp.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\conf\conf.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\conf\conf_api.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\conf\conf_def.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\constant_time_locl.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\cryptlib.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\crypto.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\des\des.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\des\des_locl.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\des\des_old.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\des\des_ver.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\des\rpc_des.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\des\spr.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\dh\dh.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\dsa\dsa.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\dsa\dsa_locl.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\dso\dso.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\ebcdic.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\ecdh\ecdh.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\ecdh\ech_locl.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\ecdsa\ecdsa.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\ecdsa\ecs_locl.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\ec\ec.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\ec\ec_lcl.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\engine\engine.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\err\err.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\evp\evp.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\evp\evp_locl.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\hmac\hmac.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\idea\idea.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\idea\idea_lcl.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\krb5\krb5_asn.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\lhash\lhash.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\md32_common.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\md4\md4.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\md4\md4_locl.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\md5\md5.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\md5\md5_locl.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\mdc2\mdc2.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\modes\modes.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\modes\modes_lcl.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\objects\objects.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\objects\obj_dat.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\objects\obj_mac.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\objects\obj_xref.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\ocsp\ocsp.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\opensslconf.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\opensslv.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\ossl_typ.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\o_dir.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\o_str.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\o_time.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\pem\pem.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\pem\pem2.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\pkcs12\pkcs12.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\pkcs7\pkcs7.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\pqueue\pqueue.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\rand\rand.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\rc2\rc2.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\rc2\rc2_locl.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\rc4\rc4.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\rc4\rc4_locl.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\ripemd\ripemd.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\ripemd\rmdconst.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\ripemd\rmd_locl.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\rsa\rsa.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\seed\seed.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\seed\seed_locl.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\sha\sha.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\sha\sha_locl.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\srp\srp.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\stack\safestack.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\stack\stack.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\symhacks.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\ts\ts.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\txt_db\txt_db.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\ui\ui.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\ui\ui_compat.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\ui\ui_locl.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\whrlpool\whrlpool.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\whrlpool\wp_locl.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\x509v3\pcy_int.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\x509v3\x509v3.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\x509\vpm_int.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\x509\x509.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\crypto\x509\x509_vfy.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\engines\e_4758cca_err.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\engines\e_aep_err.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\engines\e_atalla_err.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\engines\e_capi_err.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\engines\e_chil_err.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\engines\e_cswift_err.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\engines\e_gmp_err.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\engines\e_nuron_err.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\engines\e_sureware_err.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\engines\e_ubsec_err.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\e_os.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\e_os2.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\ssl\dtls1.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\ssl\kssl.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\ssl\kssl_lcl.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\ssl\srtp.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\ssl\ssl.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\ssl\ssl2.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\ssl\ssl23.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\ssl\ssl3.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\ssl\ssl_locl.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\ssl\tls1.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\test\ssltestlib.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\test\testutil.h">
+      <Filter>Header Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\engines\e_4758cca_err.c">
+      <Filter>Source Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\engines\e_aep_err.c">
+      <Filter>Source Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\engines\e_atalla_err.c">
+      <Filter>Source Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\engines\e_capi_err.c">
+      <Filter>Source Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\engines\e_chil_err.c">
+      <Filter>Source Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\engines\e_cswift_err.c">
+      <Filter>Source Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\engines\e_gmp_err.c">
+      <Filter>Source Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\engines\e_nuron_err.c">
+      <Filter>Source Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\engines\e_sureware_err.c">
+      <Filter>Source Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\engines\e_ubsec_err.c">
+      <Filter>Source Files</Filter>
+    </CopyFileToFolders>
   </ItemGroup>
 </Project>
