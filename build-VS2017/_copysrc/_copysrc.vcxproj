@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{625D49F1-BC00-4C36-AE25-2F408B208B08}</ProjectGuid>
+    <RootNamespace>_copysrc</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <StringPooling>true</StringPooling>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <StringPooling>true</StringPooling>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <StringPooling>true</StringPooling>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <StringPooling>true</StringPooling>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\apps\apps.h" />
+    <ClInclude Include="..\..\apps\progs.h" />
+    <ClInclude Include="..\..\apps\s_apps.h" />
+    <ClInclude Include="..\..\apps\testdsa.h" />
+    <ClInclude Include="..\..\apps\testrsa.h" />
+    <ClInclude Include="..\..\crypto\aes\aes.h" />
+    <ClInclude Include="..\..\crypto\aes\aes_locl.h" />
+    <ClInclude Include="..\..\crypto\asn1\asn1.h" />
+    <ClInclude Include="..\..\crypto\asn1\asn1t.h" />
+    <ClInclude Include="..\..\crypto\asn1\asn1_locl.h" />
+    <ClInclude Include="..\..\crypto\asn1\asn1_mac.h" />
+    <ClInclude Include="..\..\crypto\bf\bf_locl.h" />
+    <ClInclude Include="..\..\crypto\bf\bf_pi.h" />
+    <ClInclude Include="..\..\crypto\bf\blowfish.h" />
+    <ClInclude Include="..\..\crypto\bio\bio.h" />
+    <ClInclude Include="..\..\crypto\bio\bio_lcl.h" />
+    <ClInclude Include="..\..\crypto\bn\bn.h" />
+    <ClInclude Include="..\..\crypto\bn\bn_lcl.h" />
+    <ClInclude Include="..\..\crypto\bn\bn_prime.h" />
+    <ClInclude Include="..\..\crypto\bn_int.h" />
+    <ClInclude Include="..\..\crypto\buffer\buffer.h" />
+    <ClInclude Include="..\..\crypto\camellia\camellia.h" />
+    <ClInclude Include="..\..\crypto\camellia\cmll_locl.h" />
+    <ClInclude Include="..\..\crypto\cast\cast.h" />
+    <ClInclude Include="..\..\crypto\cast\cast_lcl.h" />
+    <ClInclude Include="..\..\crypto\cast\cast_s.h" />
+    <ClInclude Include="..\..\crypto\cmac\cmac.h" />
+    <ClInclude Include="..\..\crypto\cms\cms.h" />
+    <ClInclude Include="..\..\crypto\cms\cms_lcl.h" />
+    <ClInclude Include="..\..\crypto\comp\comp.h" />
+    <ClInclude Include="..\..\crypto\conf\conf.h" />
+    <ClInclude Include="..\..\crypto\conf\conf_api.h" />
+    <ClInclude Include="..\..\crypto\conf\conf_def.h" />
+    <ClInclude Include="..\..\crypto\constant_time_locl.h" />
+    <ClInclude Include="..\..\crypto\cryptlib.h" />
+    <ClInclude Include="..\..\crypto\crypto.h" />
+    <ClInclude Include="..\..\crypto\des\des.h" />
+    <ClInclude Include="..\..\crypto\des\des_locl.h" />
+    <ClInclude Include="..\..\crypto\des\des_old.h" />
+    <ClInclude Include="..\..\crypto\des\des_ver.h" />
+    <ClInclude Include="..\..\crypto\des\rpc_des.h" />
+    <ClInclude Include="..\..\crypto\des\spr.h" />
+    <ClInclude Include="..\..\crypto\dh\dh.h" />
+    <ClInclude Include="..\..\crypto\dsa\dsa.h" />
+    <ClInclude Include="..\..\crypto\dsa\dsa_locl.h" />
+    <ClInclude Include="..\..\crypto\dso\dso.h" />
+    <ClInclude Include="..\..\crypto\ecdh\ecdh.h" />
+    <ClInclude Include="..\..\crypto\ecdh\ech_locl.h" />
+    <ClInclude Include="..\..\crypto\ecdsa\ecdsa.h" />
+    <ClInclude Include="..\..\crypto\ecdsa\ecs_locl.h" />
+    <ClInclude Include="..\..\crypto\ec\ec.h" />
+    <ClInclude Include="..\..\crypto\ec\ec_lcl.h" />
+    <ClInclude Include="..\..\crypto\engine\engine.h" />
+    <ClInclude Include="..\..\crypto\err\err.h" />
+    <ClInclude Include="..\..\crypto\evp\evp.h" />
+    <ClInclude Include="..\..\crypto\evp\evp_locl.h" />
+    <ClInclude Include="..\..\crypto\hmac\hmac.h" />
+    <ClInclude Include="..\..\crypto\idea\idea.h" />
+    <ClInclude Include="..\..\crypto\idea\idea_lcl.h" />
+    <ClInclude Include="..\..\crypto\krb5\krb5_asn.h" />
+    <ClInclude Include="..\..\crypto\lhash\lhash.h" />
+    <ClInclude Include="..\..\crypto\md32_common.h" />
+    <ClInclude Include="..\..\crypto\md4\md4.h" />
+    <ClInclude Include="..\..\crypto\md4\md4_locl.h" />
+    <ClInclude Include="..\..\crypto\md5\md5.h" />
+    <ClInclude Include="..\..\crypto\md5\md5_locl.h" />
+    <ClInclude Include="..\..\crypto\mdc2\mdc2.h" />
+    <ClInclude Include="..\..\crypto\modes\modes.h" />
+    <ClInclude Include="..\..\crypto\modes\modes_lcl.h" />
+    <ClInclude Include="..\..\crypto\objects\objects.h" />
+    <ClInclude Include="..\..\crypto\objects\obj_dat.h" />
+    <ClInclude Include="..\..\crypto\objects\obj_mac.h" />
+    <ClInclude Include="..\..\crypto\objects\obj_xref.h" />
+    <ClInclude Include="..\..\crypto\ocsp\ocsp.h" />
+    <ClInclude Include="..\..\crypto\opensslconf.h" />
+    <ClInclude Include="..\..\crypto\opensslv.h" />
+    <ClInclude Include="..\..\crypto\ossl_typ.h" />
+    <ClInclude Include="..\..\crypto\o_dir.h" />
+    <ClInclude Include="..\..\crypto\o_str.h" />
+    <ClInclude Include="..\..\crypto\o_time.h" />
+    <ClInclude Include="..\..\crypto\pem\pem.h" />
+    <ClInclude Include="..\..\crypto\pem\pem2.h" />
+    <ClInclude Include="..\..\crypto\pkcs12\pkcs12.h" />
+    <ClInclude Include="..\..\crypto\pkcs7\pkcs7.h" />
+    <ClInclude Include="..\..\crypto\pqueue\pqueue.h" />
+    <ClInclude Include="..\..\crypto\rand\rand.h" />
+    <ClInclude Include="..\..\crypto\rc2\rc2.h" />
+    <ClInclude Include="..\..\crypto\rc2\rc2_locl.h" />
+    <ClInclude Include="..\..\crypto\rc4\rc4.h" />
+    <ClInclude Include="..\..\crypto\rc4\rc4_locl.h" />
+    <ClInclude Include="..\..\crypto\ripemd\ripemd.h" />
+    <ClInclude Include="..\..\crypto\ripemd\rmdconst.h" />
+    <ClInclude Include="..\..\crypto\ripemd\rmd_locl.h" />
+    <ClInclude Include="..\..\crypto\rsa\rsa.h" />
+    <ClInclude Include="..\..\crypto\seed\seed.h" />
+    <ClInclude Include="..\..\crypto\seed\seed_locl.h" />
+    <ClInclude Include="..\..\crypto\sha\sha.h" />
+    <ClInclude Include="..\..\crypto\sha\sha_locl.h" />
+    <ClInclude Include="..\..\crypto\srp\srp.h" />
+    <ClInclude Include="..\..\crypto\stack\safestack.h" />
+    <ClInclude Include="..\..\crypto\stack\stack.h" />
+    <ClInclude Include="..\..\crypto\symhacks.h" />
+    <ClInclude Include="..\..\crypto\ts\ts.h" />
+    <ClInclude Include="..\..\crypto\txt_db\txt_db.h" />
+    <ClInclude Include="..\..\crypto\ui\ui.h" />
+    <ClInclude Include="..\..\crypto\ui\ui_compat.h" />
+    <ClInclude Include="..\..\crypto\ui\ui_locl.h" />
+    <ClInclude Include="..\..\crypto\whrlpool\whrlpool.h" />
+    <ClInclude Include="..\..\crypto\whrlpool\wp_locl.h" />
+    <ClInclude Include="..\..\crypto\x509v3\pcy_int.h" />
+    <ClInclude Include="..\..\crypto\x509v3\x509v3.h" />
+    <ClInclude Include="..\..\crypto\x509\vpm_int.h" />
+    <ClInclude Include="..\..\crypto\x509\x509.h" />
+    <ClInclude Include="..\..\crypto\x509\x509_vfy.h" />
+    <ClInclude Include="..\..\engines\e_4758cca_err.h" />
+    <ClInclude Include="..\..\engines\e_aep_err.h" />
+    <ClInclude Include="..\..\engines\e_atalla_err.h" />
+    <ClInclude Include="..\..\engines\e_capi_err.h" />
+    <ClInclude Include="..\..\engines\e_chil_err.h" />
+    <ClInclude Include="..\..\engines\e_cswift_err.h" />
+    <ClInclude Include="..\..\engines\e_gmp_err.h" />
+    <ClInclude Include="..\..\engines\e_nuron_err.h" />
+    <ClInclude Include="..\..\engines\e_sureware_err.h" />
+    <ClInclude Include="..\..\engines\e_ubsec_err.h" />
+    <ClInclude Include="..\..\e_os.h" />
+    <ClInclude Include="..\..\e_os2.h" />
+    <ClInclude Include="..\..\ssl\dtls1.h" />
+    <ClInclude Include="..\..\ssl\kssl.h" />
+    <ClInclude Include="..\..\ssl\kssl_lcl.h" />
+    <ClInclude Include="..\..\ssl\srtp.h" />
+    <ClInclude Include="..\..\ssl\ssl.h" />
+    <ClInclude Include="..\..\ssl\ssl2.h" />
+    <ClInclude Include="..\..\ssl\ssl23.h" />
+    <ClInclude Include="..\..\ssl\ssl3.h" />
+    <ClInclude Include="..\..\ssl\ssl_locl.h" />
+    <ClInclude Include="..\..\ssl\tls1.h" />
+    <ClInclude Include="..\..\test\ssltestlib.h" />
+    <ClInclude Include="..\..\test\testutil.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\engines\e_4758cca_err.c" />
+    <ClCompile Include="..\..\engines\e_aep_err.c" />
+    <ClCompile Include="..\..\engines\e_atalla_err.c" />
+    <ClCompile Include="..\..\engines\e_capi_err.c" />
+    <ClCompile Include="..\..\engines\e_chil_err.c" />
+    <ClCompile Include="..\..\engines\e_cswift_err.c" />
+    <ClCompile Include="..\..\engines\e_gmp_err.c" />
+    <ClCompile Include="..\..\engines\e_nuron_err.c" />
+    <ClCompile Include="..\..\engines\e_sureware_err.c" />
+    <ClCompile Include="..\..\engines\e_ubsec_err.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
