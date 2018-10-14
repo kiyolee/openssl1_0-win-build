@@ -7,7 +7,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libeay32", "libeay32\libeay
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ssleay32", "ssleay32\ssleay32.vcxproj", "{1E068827-5CD6-4648-98DD-B0417F0B9DDC}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_copysrc", "_copysrc\_copysrc.vcxproj", "{625D49F1-BC00-4C36-AE25-2F408B208B08}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_copyfiles", "_copyfiles\_copyfiles.vcxproj", "{625D49F1-BC00-4C36-AE25-2F408B208B08}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
