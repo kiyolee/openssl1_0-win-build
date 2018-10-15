@@ -195,7 +195,12 @@
     <ClCompile Include="..\..\crypto\conf\conf_sap.c" />
     <ClCompile Include="..\..\crypto\cpt_err.c" />
     <ClCompile Include="..\..\crypto\cryptlib.c" />
-    <ClCompile Include="..\..\crypto\cversion.c" />
+    <ClCompile Include="..\..\crypto\cversion.c">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MK1MF_PLATFORM_VC_WIN32;MK1MF_BUILD;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MK1MF_PLATFORM_VC_WIN32;MK1MF_BUILD;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MK1MF_PLATFORM_VC_WIN64A;MK1MF_BUILD;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MK1MF_PLATFORM_VC_WIN64A;MK1MF_BUILD;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
     <ClCompile Include="..\..\crypto\des\cbc_cksm.c" />
     <ClCompile Include="..\..\crypto\des\cbc_enc.c" />
     <ClCompile Include="..\..\crypto\des\cfb64ede.c" />
@@ -620,7 +625,12 @@
     <ClCompile Include="..\..\engines\e_padlock.c" />
     <ClCompile Include="..\..\engines\e_sureware.c" />
     <ClCompile Include="..\..\engines\e_ubsec.c" />
-    <ClCompile Include="..\..\ms\uplink.c" />
+    <ClCompile Include="..\..\ms\uplink.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">OPENSSL_BUILD_SHLIBCRYPTO</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">OPENSSL_BUILD_SHLIBCRYPTO</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">OPENSSL_BUILD_SHLIBCRYPTO</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">OPENSSL_BUILD_SHLIBCRYPTO</UndefinePreprocessorDefinitions>
+    </ClCompile>
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
@@ -657,15 +667,19 @@
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\_props\libeay32.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\_props\libeay32.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\_props\libeay32.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\_props\libeay32.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup />

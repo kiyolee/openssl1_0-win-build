@@ -4,12 +4,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.26206.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libeay32", "libeay32\libeay32.vcxproj", "{C92E1E46-3C94-4DD6-8E7D-E23ECED32A8C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{625D49F1-BC00-4C36-AE25-2F408B208B08} = {625D49F1-BC00-4C36-AE25-2F408B208B08}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ssleay32", "ssleay32\ssleay32.vcxproj", "{1E068827-5CD6-4648-98DD-B0417F0B9DDC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C92E1E46-3C94-4DD6-8E7D-E23ECED32A8C} = {C92E1E46-3C94-4DD6-8E7D-E23ECED32A8C}
+		{625D49F1-BC00-4C36-AE25-2F408B208B08} = {625D49F1-BC00-4C36-AE25-2F408B208B08}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_copyfiles", "_copyfiles\_copyfiles.vcxproj", "{625D49F1-BC00-4C36-AE25-2F408B208B08}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "openssl", "openssl\openssl.vcxproj", "{6138B808-39FD-4D03-B672-A8CBCD5FF85D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1E068827-5CD6-4648-98DD-B0417F0B9DDC} = {1E068827-5CD6-4648-98DD-B0417F0B9DDC}
+		{C92E1E46-3C94-4DD6-8E7D-E23ECED32A8C} = {C92E1E46-3C94-4DD6-8E7D-E23ECED32A8C}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
