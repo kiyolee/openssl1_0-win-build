@@ -178,6 +178,15 @@
     <Filter Include="Source Files\ms">
       <UniqueIdentifier>{7b1713b4-f90a-4410-99b6-6079dbd83c1f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\asm">
+      <UniqueIdentifier>{9cc240bd-2493-4942-bcb1-d8972c470e94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\asm\x86">
+      <UniqueIdentifier>{d1e77f4d-0ff8-47c1-b434-83bd424d695e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\asm\x64">
+      <UniqueIdentifier>{8226097c-6d0f-42ea-b0a4-a232df2a8f57}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\crypto\aes\aes_cfb.c">
@@ -1986,5 +1995,145 @@
     <ClCompile Include="..\..\ms\uplink.c">
       <Filter>Source Files\ms</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\crypto\modes\asm\aesni-gcm-x86_64.pl">
+      <Filter>Source Files\asm\x64</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\aes\asm\aesni-mb-x86_64.pl">
+      <Filter>Source Files\asm\x64</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\aes\asm\aesni-sha1-x86_64.pl">
+      <Filter>Source Files\asm\x64</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\aes\asm\aesni-sha256-x86_64.pl">
+      <Filter>Source Files\asm\x64</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\aes\asm\aesni-x86_64.pl">
+      <Filter>Source Files\asm\x64</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\aes\asm\aes-x86_64.pl">
+      <Filter>Source Files\asm\x64</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\aes\asm\bsaes-x86_64.pl">
+      <Filter>Source Files\asm\x64</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\camellia\asm\cmll-x86_64.pl">
+      <Filter>Source Files\asm\x64</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\ec\asm\ecp_nistz256-x86_64.pl">
+      <Filter>Source Files\asm\x64</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\modes\asm\ghash-x86_64.pl">
+      <Filter>Source Files\asm\x64</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\aes\asm\aes-586.pl">
+      <Filter>Source Files\asm\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\aes\asm\aesni-x86.pl">
+      <Filter>Source Files\asm\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\bf\asm\bf-586.pl">
+      <Filter>Source Files\asm\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\bn\asm\bn-586.pl">
+      <Filter>Source Files\asm\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\cast\asm\cast-586.pl">
+      <Filter>Source Files\asm\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\camellia\asm\cmll-x86.pl">
+      <Filter>Source Files\asm\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\bn\asm\co-586.pl">
+      <Filter>Source Files\asm\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\des\asm\crypt586.pl">
+      <Filter>Source Files\asm\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\des\asm\des-586.pl">
+      <Filter>Source Files\asm\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\modes\asm\ghash-x86.pl">
+      <Filter>Source Files\asm\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\md5\asm\md5-586.pl">
+      <Filter>Source Files\asm\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\md5\asm\md5-x86_64.pl">
+      <Filter>Source Files\asm\x64</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\rc4\asm\rc4-md5-x86_64.pl">
+      <Filter>Source Files\asm\x64</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\rc4\asm\rc4-x86_64.pl">
+      <Filter>Source Files\asm\x64</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\bn\asm\rsaz-x86_64.pl">
+      <Filter>Source Files\asm\x64</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\sha\asm\sha1-mb-x86_64.pl">
+      <Filter>Source Files\asm\x64</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\sha\asm\sha1-x86_64.pl">
+      <Filter>Source Files\asm\x64</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\sha\asm\sha256-mb-x86_64.pl">
+      <Filter>Source Files\asm\x64</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\sha\asm\sha512-x86_64.pl">
+      <Filter>Source Files\asm\x64</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\rc4\asm\rc4-586.pl">
+      <Filter>Source Files\asm\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\ripemd\asm\rmd-586.pl">
+      <Filter>Source Files\asm\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\sha\asm\sha1-586.pl">
+      <Filter>Source Files\asm\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\sha\asm\sha256-586.pl">
+      <Filter>Source Files\asm\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\sha\asm\sha512-586.pl">
+      <Filter>Source Files\asm\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\aes\asm\vpaes-x86.pl">
+      <Filter>Source Files\asm\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\aes\asm\vpaes-x86_64.pl">
+      <Filter>Source Files\asm\x64</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\x86_64cpuid.pl">
+      <Filter>Source Files\asm\x64</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\bn\asm\x86_64-gf2m.pl">
+      <Filter>Source Files\asm\x64</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\bn\asm\x86_64-mont.pl">
+      <Filter>Source Files\asm\x64</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\bn\asm\x86_64-mont5.pl">
+      <Filter>Source Files\asm\x64</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\x86cpuid.pl">
+      <Filter>Source Files\asm\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\bn\asm\x86-gf2m.pl">
+      <Filter>Source Files\asm\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\bn\asm\x86-mont.pl">
+      <Filter>Source Files\asm\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\whrlpool\asm\wp-x86_64.pl">
+      <Filter>Source Files\asm\x64</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\whrlpool\asm\wp-mmx.pl">
+      <Filter>Source Files\asm\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\bn\asm\rsaz-avx2.pl">
+      <Filter>Source Files\asm\x64</Filter>
+    </CustomBuild>
   </ItemGroup>
 </Project>
