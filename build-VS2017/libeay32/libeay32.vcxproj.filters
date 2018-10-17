@@ -187,6 +187,9 @@
     <Filter Include="Source Files\asm\x64">
       <UniqueIdentifier>{8226097c-6d0f-42ea-b0a4-a232df2a8f57}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\util">
+      <UniqueIdentifier>{31d719e8-87fc-45f7-9a63-6504eb8056a7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\crypto\aes\aes_cfb.c">
@@ -2134,6 +2137,9 @@
     </CustomBuild>
     <CustomBuild Include="..\..\crypto\bn\asm\rsaz-avx2.pl">
       <Filter>Source Files\asm\x64</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\util\mkdef.pl">
+      <Filter>Source Files\util</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>

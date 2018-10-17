@@ -53,18 +53,22 @@
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\_props\tools.props" />
     <Import Project="..\_props\ssleay32.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\_props\tools.props" />
     <Import Project="..\_props\ssleay32.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\_props\tools.props" />
     <Import Project="..\_props\ssleay32.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\_props\tools.props" />
     <Import Project="..\_props\ssleay32.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
@@ -76,6 +80,7 @@
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>$(OutDir)libeay32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ModuleDefinitionFile>$(OutDir)_work\ssleay32.def</ModuleDefinitionFile>
     </Link>
     <ResourceCompile>
       <PreprocessorDefinitions>SSL</PreprocessorDefinitions>
@@ -90,6 +95,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalDependencies>$(OutDir)libeay32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ModuleDefinitionFile>$(OutDir)_work\ssleay32.def</ModuleDefinitionFile>
     </Link>
     <ResourceCompile>
       <PreprocessorDefinitions>SSL</PreprocessorDefinitions>
@@ -102,6 +108,7 @@
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>$(OutDir)libeay32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ModuleDefinitionFile>$(OutDir)_work\ssleay32.def</ModuleDefinitionFile>
     </Link>
     <ResourceCompile>
       <PreprocessorDefinitions>SSL</PreprocessorDefinitions>
@@ -116,6 +123,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalDependencies>$(OutDir)libeay32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ModuleDefinitionFile>$(OutDir)_work\ssleay32.def</ModuleDefinitionFile>
     </Link>
     <ResourceCompile>
       <PreprocessorDefinitions>SSL</PreprocessorDefinitions>
@@ -175,6 +183,31 @@
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="..\..\ms\version32.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\util\mkdef.pl">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">mkdir $(OutDir)_work 2&gt;nul
+pushd ..\..
+$(PERL) %(FullPath) 32 ssleay &gt; $(OutDir)_work\ssleay32.def
+popd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">mkdir $(OutDir)_work 2&gt;nul
+pushd ..\..
+$(PERL) %(FullPath) 32 ssleay &gt; $(OutDir)_work\ssleay32.def
+popd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mkdir $(OutDir)_work 2&gt;nul
+pushd ..\..
+$(PERL) %(FullPath) 32 ssleay &gt; $(OutDir)_work\ssleay32.def
+popd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mkdir $(OutDir)_work 2&gt;nul
+pushd ..\..
+$(PERL) %(FullPath) 32 ssleay &gt; $(OutDir)_work\ssleay32.def
+popd</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work\ssleay32.def</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work\ssleay32.def</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work\ssleay32.def</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work\ssleay32.def</Outputs>
+    </CustomBuild>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
