@@ -172,6 +172,7 @@ extern BIO *bio_err;
 # ifdef OPENSSL_NO_COMP
 #  define zlib_cleanup()
 # else
+#  include <openssl/comp.h>
 #  define zlib_cleanup() COMP_zlib_cleanup()
 # endif
 

@@ -194,7 +194,7 @@ int MAIN(int argc, char **argv)
     const EVP_MD *md_alg = NULL, *digest = NULL;
     unsigned long chtype = MBSTRING_ASC;
 #ifndef MONOLITH
-    char *to_free;
+    char *to_free = NULL;
     long errline;
 #endif
 

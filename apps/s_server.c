@@ -894,7 +894,7 @@ static int cert_status_cb(SSL *s, void *arg)
 {
     tlsextstatusctx *srctx = arg;
     BIO *err = srctx->err;
-    char *host, *port, *path;
+    char *host = NULL, *port = NULL, *path = NULL;
     int use_ssl;
     unsigned char *rspder = NULL;
     int rspderlen;
