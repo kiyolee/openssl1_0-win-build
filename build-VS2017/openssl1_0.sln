@@ -14,7 +14,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ssleay32", "ssleay32\ssleay
 		{625D49F1-BC00-4C36-AE25-2F408B208B08} = {625D49F1-BC00-4C36-AE25-2F408B208B08}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_copyfiles", "_copyfiles\_copyfiles.vcxproj", "{625D49F1-BC00-4C36-AE25-2F408B208B08}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_prebuild", "_prebuild\_prebuild.vcxproj", "{625D49F1-BC00-4C36-AE25-2F408B208B08}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "openssl", "openssl\openssl.vcxproj", "{6138B808-39FD-4D03-B672-A8CBCD5FF85D}"
 	ProjectSection(ProjectDependencies) = postProject
