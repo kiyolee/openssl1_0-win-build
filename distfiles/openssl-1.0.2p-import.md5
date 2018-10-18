@@ -1493,9 +1493,9 @@ ac5899243d9a978178d173055647fe8b  ms/uplink-x86_64.pl
 41668c3a2d4fdc92b9efce33f4cfe685  ms/x86asm.bat
 fd8b3e68986ad75fa30eab27b617e5e9  NEWS
 b1da1e2802be3662feba85ff214abddc  PROBLEMS
-2d8ddfbd2c90c9a406ae52122050bb42  README
 b2ad79d37a6006b6f51ee64fbf689d2d  README.ASN1
 b86dd8e4d82a373069b5ba54045d1abe  README.ENGINE
+2d8ddfbd2c90c9a406ae52122050bb42  README.OpenSSL
 628e052d4b8ca1655c2d064f3006edaa  ssl/bad_dtls_test.c
 b1ae790e8576e6e86de69d6b35e02421  ssl/bio_ssl.c
 cd32af48a0b4309daa8b531bd77a198a  ssl/clienthellotest.c
