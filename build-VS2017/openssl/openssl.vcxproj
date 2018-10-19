@@ -75,7 +75,6 @@
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>setargv.obj;ws2_32.lib;$(OutDir)libeay32.lib;$(OutDir)ssleay32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <ResourceCompile>
       <PreprocessorDefinitions>OPENSSL</PreprocessorDefinitions>
@@ -89,7 +88,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalDependencies>setargv.obj;ws2_32.lib;$(OutDir)libeay32.lib;$(OutDir)ssleay32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <ResourceCompile>
       <PreprocessorDefinitions>OPENSSL</PreprocessorDefinitions>
@@ -101,7 +99,6 @@
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>setargv.obj;ws2_32.lib;$(OutDir)libeay32.lib;$(OutDir)ssleay32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <ResourceCompile>
       <PreprocessorDefinitions>OPENSSL</PreprocessorDefinitions>
@@ -115,7 +112,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalDependencies>setargv.obj;ws2_32.lib;$(OutDir)libeay32.lib;$(OutDir)ssleay32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <ResourceCompile>
       <PreprocessorDefinitions>OPENSSL</PreprocessorDefinitions>

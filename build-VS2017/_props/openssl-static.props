@@ -12,6 +12,9 @@
       <SDLCheck>true</SDLCheck>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
+    <Link>
+      <AdditionalDependencies>setargv.obj;ws2_32.lib;crypt32.lib;$(OutDir)libeay32-static.lib;$(OutDir)ssleay32-static.lib;..\..\..\zlib-win-build\build-VS2017\$(Configuration)\libz-static.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -27,6 +30,9 @@
       <SDLCheck>true</SDLCheck>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
+    <Link>
+      <AdditionalDependencies>setargv.obj;ws2_32.lib;crypt32.lib;$(OutDir)libeay32-static.lib;$(OutDir)ssleay32-static.lib;..\..\..\zlib-win-build\build-VS2017\$(Configuration)\libz-static.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -37,6 +43,9 @@
       <SDLCheck>true</SDLCheck>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
+    <Link>
+      <AdditionalDependencies>setargv.obj;ws2_32.lib;crypt32.lib;$(OutDir)libeay32-static.lib;$(OutDir)ssleay32-static.lib;..\..\..\zlib-win-build\build-VS2017\$(Platform)\$(Configuration)\libz-static.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
@@ -52,6 +61,9 @@
       <SDLCheck>true</SDLCheck>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
+    <Link>
+      <AdditionalDependencies>setargv.obj;ws2_32.lib;crypt32.lib;$(OutDir)libeay32-static.lib;$(OutDir)ssleay32-static.lib;..\..\..\zlib-win-build\build-VS2017\$(Platform)\$(Configuration)\libz-static.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
   </ItemDefinitionGroup>
   <ItemGroup />
 </Project>
