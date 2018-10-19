@@ -16,9 +16,6 @@
     <Filter Include="Source Files\apps">
       <UniqueIdentifier>{e1dfa1cb-d079-4f75-a01d-d042ba197172}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\ms">
-      <UniqueIdentifier>{90405829-9ade-4601-aebc-9d3103547fcc}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\apps\sess_id.c">
@@ -173,9 +170,6 @@
     </ClCompile>
     <ClCompile Include="..\..\apps\s_time.c">
       <Filter>Source Files\apps</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\ms\applink.c">
-      <Filter>Source Files\ms</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
