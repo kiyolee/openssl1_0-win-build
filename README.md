@@ -1,4 +1,4 @@
-# openssl-win-build
+# openssl1_0-win-build
 
 openssl Windows build with Visual Studio.
 
