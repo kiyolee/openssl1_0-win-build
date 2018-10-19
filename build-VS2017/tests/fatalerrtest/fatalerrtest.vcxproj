@@ -107,6 +107,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\ms\applink.c" />
+    <ClCompile Include="..\..\..\ssl\fatalerrtest.c" />
+    <ClCompile Include="..\..\..\test\ssltestlib.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
