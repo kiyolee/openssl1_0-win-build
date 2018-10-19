@@ -77,6 +77,9 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>setargv.obj;ws2_32.lib;crypt32.lib;$(OutDir)libeay32-static.lib;$(OutDir)ssleay32-static.lib;..\..\..\zlib-win-build\build-VS2017\$(Configuration)\libz-static.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
+    <ResourceCompile>
+      <PreprocessorDefinitions>OPENSSL</PreprocessorDefinitions>
+    </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -88,6 +91,9 @@
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalDependencies>setargv.obj;ws2_32.lib;crypt32.lib;$(OutDir)libeay32-static.lib;$(OutDir)ssleay32-static.lib;..\..\..\zlib-win-build\build-VS2017\$(Configuration)\libz-static.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
+    <ResourceCompile>
+      <PreprocessorDefinitions>OPENSSL</PreprocessorDefinitions>
+    </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -97,6 +103,9 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>setargv.obj;ws2_32.lib;crypt32.lib;$(OutDir)libeay32-static.lib;$(OutDir)ssleay32-static.lib;..\..\..\zlib-win-build\build-VS2017\$(Platform)\$(Configuration)\libz-static.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
+    <ResourceCompile>
+      <PreprocessorDefinitions>OPENSSL</PreprocessorDefinitions>
+    </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
@@ -108,6 +117,9 @@
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalDependencies>setargv.obj;ws2_32.lib;crypt32.lib;$(OutDir)libeay32-static.lib;$(OutDir)ssleay32-static.lib;..\..\..\zlib-win-build\build-VS2017\$(Platform)\$(Configuration)\libz-static.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
+    <ResourceCompile>
+      <PreprocessorDefinitions>OPENSSL</PreprocessorDefinitions>
+    </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\apps\apps.c" />
@@ -161,6 +173,9 @@
     <ClCompile Include="..\..\apps\verify.c" />
     <ClCompile Include="..\..\apps\version.c" />
     <ClCompile Include="..\..\apps\x509.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\ms\version32.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1444,7 +1444,6 @@ INSTALL
 INSTALL.W32
 INSTALL.W64
 LICENSE
-Makefile
 Makefile.org
 Makefile.shared
 ms/.rnd

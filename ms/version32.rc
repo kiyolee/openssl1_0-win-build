@@ -29,6 +29,9 @@ BEGIN
 #elif defined(SSL)
 	    VALUE "InternalName", "ssleay32\0"
 	    VALUE "OriginalFilename", "ssleay32.dll\0"
+#elif defined(OPENSSL)
+    VALUE "InternalName", "openssl\0"
+    VALUE "OriginalFilename", "openssl.exe\0"
 #endif
 	    VALUE "ProductName", "The OpenSSL Toolkit\0"
 	    VALUE "ProductVersion", "1.0.2p\0"
