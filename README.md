@@ -42,4 +42,4 @@ Make sure both perl and nasm can be found through command path.
 
 1. Multiple Visual Studio versions build happily sharing the same build directory.
 2. Build both 32-bit (x86) and 64-bit (x64) binaries in one solution.
-3. Assembly sources are generated from origin perlasm scripts. No pre-generated assembly source are checked in.
+3. Assembly sources are generated from original perlasm scripts. No pre-generated assembly source are checked in.
