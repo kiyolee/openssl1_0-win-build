@@ -1045,9 +1045,9 @@ static int make_ocsp_response(OCSP_RESPONSE **resp, OCSP_REQUEST *req,
     /* Examine each certificate id in the request */
     for (i = 0; i < id_count; i++) {
         OCSP_ONEREQ *one;
-        ASN1_INTEGER *serial;
+        ASN1_INTEGER *serial = NULL;
         char **inf;
-        ASN1_OBJECT *cert_id_md_oid;
+        ASN1_OBJECT *cert_id_md_oid = NULL;
         const EVP_MD *cert_id_md;
         one = OCSP_request_onereq_get0(req, i);
         cid = OCSP_onereq_get0_id(one);

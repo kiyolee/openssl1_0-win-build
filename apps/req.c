@@ -1603,8 +1603,8 @@ static EVP_PKEY_CTX *set_keygen_ctx(BIO *err, const char *gstr,
 
     if (palgnam) {
         const EVP_PKEY_ASN1_METHOD *ameth;
-        ENGINE *tmpeng;
-        const char *anam;
+        ENGINE *tmpeng = NULL;
+        const char *anam = NULL;
         ameth = EVP_PKEY_asn1_find(&tmpeng, *pkey_type);
         if (!ameth) {
             BIO_puts(err, "Internal error: can't find key algorithm\n");

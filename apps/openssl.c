@@ -602,8 +602,8 @@ static void list_pkey(BIO *out)
     int i;
     for (i = 0; i < EVP_PKEY_asn1_get_count(); i++) {
         const EVP_PKEY_ASN1_METHOD *ameth;
-        int pkey_id, pkey_base_id, pkey_flags;
-        const char *pinfo, *pem_str;
+        int pkey_id = 0, pkey_base_id = 0, pkey_flags = 0;
+        const char *pinfo = NULL, *pem_str = NULL;
         ameth = EVP_PKEY_asn1_get0(i);
         EVP_PKEY_asn1_get0_info(&pkey_id, &pkey_base_id, &pkey_flags,
                                 &pinfo, &pem_str, ameth);

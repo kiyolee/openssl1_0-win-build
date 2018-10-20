@@ -867,13 +867,13 @@ static int rsa_cms_decrypt(CMS_RecipientInfo *ri)
 
 static int rsa_cms_encrypt(CMS_RecipientInfo *ri)
 {
-    const EVP_MD *md, *mgf1md;
+    const EVP_MD *md = NULL, *mgf1md = NULL;
     RSA_OAEP_PARAMS *oaep = NULL;
     ASN1_STRING *os = NULL;
-    X509_ALGOR *alg;
+    X509_ALGOR *alg = NULL;
     EVP_PKEY_CTX *pkctx = CMS_RecipientInfo_get0_pkey_ctx(ri);
     int pad_mode = RSA_PKCS1_PADDING, rv = 0, labellen;
-    unsigned char *label;
+    unsigned char *label = NULL;
     CMS_RecipientInfo_ktri_get0_algs(ri, NULL, NULL, &alg);
     if (pkctx) {
         if (EVP_PKEY_CTX_get_rsa_padding(pkctx, &pad_mode) <= 0)
