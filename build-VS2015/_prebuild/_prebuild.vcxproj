@@ -122,929 +122,338 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CopyFileToFolders Include="..\..\apps\apps.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\apps\progs.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\apps\s_apps.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\apps\testdsa.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\apps\testrsa.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\aes\aes.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\aes\aes_locl.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\asn1\asn1.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\asn1\asn1t.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\asn1\asn1_locl.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\asn1\asn1_mac.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\bf\bf_locl.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\bf\bf_pi.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\bf\blowfish.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\bio\bio.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\bio\bio_lcl.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\bn\bn.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\bn\bn_lcl.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\bn\bn_prime.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\bn_int.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\buffer\buffer.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\camellia\camellia.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\camellia\cmll_locl.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\cast\cast.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\cast\cast_lcl.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\cast\cast_s.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\cmac\cmac.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\cms\cms.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\cms\cms_lcl.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\comp\comp.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\conf\conf.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\conf\conf_api.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\conf\conf_def.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\constant_time_locl.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\cryptlib.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\crypto.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\des\des.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\des\des_locl.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\des\des_old.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\des\des_ver.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\des\rpc_des.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\des\spr.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\dh\dh.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\dsa\dsa.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\dsa\dsa_locl.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\dso\dso.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\ebcdic.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\ecdh\ecdh.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\ecdh\ech_locl.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\ecdsa\ecdsa.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\ecdsa\ecs_locl.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\ec\ec.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\ec\ec_lcl.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\engine\engine.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\err\err.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\evp\evp.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\evp\evp_locl.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\hmac\hmac.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\idea\idea.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\idea\idea_lcl.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\krb5\krb5_asn.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\lhash\lhash.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\md32_common.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\md4\md4.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\md4\md4_locl.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\md5\md5.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\md5\md5_locl.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\mdc2\mdc2.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\modes\modes.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\modes\modes_lcl.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\objects\objects.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\objects\obj_dat.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\objects\obj_mac.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\objects\obj_xref.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\ocsp\ocsp.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\opensslconf.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\opensslv.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\ossl_typ.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\o_dir.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\o_str.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\o_time.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\pem\pem.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\pem\pem2.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\pkcs12\pkcs12.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\pkcs7\pkcs7.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\pqueue\pqueue.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\rand\rand.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\rc2\rc2.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\rc2\rc2_locl.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\rc4\rc4.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\rc4\rc4_locl.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\ripemd\ripemd.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\ripemd\rmdconst.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\ripemd\rmd_locl.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\rsa\rsa.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\seed\seed.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\seed\seed_locl.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\sha\sha.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\sha\sha_locl.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\srp\srp.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\stack\safestack.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\stack\stack.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\symhacks.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\ts\ts.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\txt_db\txt_db.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\ui\ui.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\ui\ui_compat.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\ui\ui_locl.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\whrlpool\whrlpool.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\whrlpool\wp_locl.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\x509v3\pcy_int.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\x509v3\x509v3.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\x509\vpm_int.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\x509\x509.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\x509\x509_vfy.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\engines\e_4758cca_err.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\engines\e_aep_err.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\engines\e_atalla_err.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\engines\e_capi_err.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\engines\e_chil_err.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\engines\e_cswift_err.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\engines\e_gmp_err.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\engines\e_nuron_err.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\engines\e_sureware_err.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\engines\e_ubsec_err.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\e_os.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\e_os2.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\ssl\dtls1.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\ssl\kssl.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\ssl\kssl_lcl.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\ssl\srtp.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\ssl\ssl.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\ssl\ssl2.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\ssl\ssl23.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\ssl\ssl3.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\ssl\ssl_locl.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\ssl\tls1.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\test\ssltestlib.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\test\testutil.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
+    <CustomBuild Include="..\..\apps\apps.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">mkdir $(OutDir)_work 2&gt;nul
+copy /v /y %(FullPath) $(OutDir)_work\</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work\%(Filename)%(Extension)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">mkdir $(OutDir)_work 2&gt;nul
+copy /v /y %(FullPath) $(OutDir)_work\</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work\%(Filename)%(Extension)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mkdir $(OutDir)_work 2&gt;nul
+copy /v /y %(FullPath) $(OutDir)_work\</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work\%(Filename)%(Extension)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mkdir $(OutDir)_work 2&gt;nul
+copy /v /y %(FullPath) $(OutDir)_work\</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work\%(Filename)%(Extension)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\apps\progs.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\apps\s_apps.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\apps\testdsa.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\apps\testrsa.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\aes\aes.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">mkdir $(OutDir)include 2&gt;nul
+mkdir $(OutDir)include\openssl 2&gt;nul
+copy /v /y %(FullPath) $(OutDir)include\openssl</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">mkdir $(OutDir)include 2&gt;nul
+mkdir $(OutDir)include\openssl 2&gt;nul
+copy /v /y %(FullPath) $(OutDir)include\openssl</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mkdir $(OutDir)include 2&gt;nul
+mkdir $(OutDir)include\openssl 2&gt;nul
+copy /v /y %(FullPath) $(OutDir)include\openssl</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mkdir $(OutDir)include 2&gt;nul
+mkdir $(OutDir)include\openssl 2&gt;nul
+copy /v /y %(FullPath) $(OutDir)include\openssl</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl\%(Filename)%(Extension)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl\%(Filename)%(Extension)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl\%(Filename)%(Extension)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl\%(Filename)%(Extension)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\aes\aes_locl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\asn1\asn1.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\asn1\asn1t.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\asn1\asn1_locl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\asn1\asn1_mac.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\bf\bf_locl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\bf\bf_pi.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\bf\blowfish.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\bio\bio.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\bio\bio_lcl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\bn\bn.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\bn\bn_lcl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\bn\bn_prime.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\bn_int.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\buffer\buffer.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\camellia\camellia.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\camellia\cmll_locl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\cast\cast.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\cast\cast_lcl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\cast\cast_s.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\cmac\cmac.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\cms\cms.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\cms\cms_lcl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\comp\comp.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\conf\conf.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\conf\conf_api.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\conf\conf_def.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\constant_time_locl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\cryptlib.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\crypto.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\des\des.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\des\des_locl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\des\des_old.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\des\des_ver.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\des\rpc_des.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\des\spr.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\dh\dh.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\dsa\dsa.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\dsa\dsa_locl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\dso\dso.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\ebcdic.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\ecdh\ecdh.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\ecdh\ech_locl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\ecdsa\ecdsa.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\ecdsa\ecs_locl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\ec\ec.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\ec\ec_lcl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\engine\engine.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\err\err.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\evp\evp.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\evp\evp_locl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\hmac\hmac.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\idea\idea.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\idea\idea_lcl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\krb5\krb5_asn.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\lhash\lhash.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\md32_common.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\md4\md4.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\md4\md4_locl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\md5\md5.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\md5\md5_locl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\mdc2\mdc2.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\modes\modes.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\modes\modes_lcl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\objects\objects.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\objects\obj_dat.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\objects\obj_mac.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\objects\obj_xref.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\ocsp\ocsp.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\opensslconf.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\opensslv.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\ossl_typ.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\o_dir.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\o_str.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\o_time.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\pem\pem.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\pem\pem2.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\pkcs12\pkcs12.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\pkcs7\pkcs7.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\pqueue\pqueue.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\rand\rand.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\rc2\rc2.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\rc2\rc2_locl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\rc4\rc4.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\rc4\rc4_locl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\ripemd\ripemd.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\ripemd\rmdconst.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\ripemd\rmd_locl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\rsa\rsa.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\seed\seed.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\seed\seed_locl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\sha\sha.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\sha\sha_locl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\srp\srp.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\stack\safestack.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\stack\stack.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\symhacks.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\ts\ts.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\txt_db\txt_db.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\ui\ui.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\ui\ui_compat.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\ui\ui_locl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\whrlpool\whrlpool.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\whrlpool\wp_locl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\x509v3\pcy_int.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\x509v3\x509v3.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\x509\vpm_int.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\x509\x509.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\x509\x509_vfy.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\engines\e_4758cca_err.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\engines\e_aep_err.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\engines\e_atalla_err.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\engines\e_capi_err.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\engines\e_chil_err.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\engines\e_cswift_err.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\engines\e_gmp_err.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\engines\e_nuron_err.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\engines\e_sureware_err.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\engines\e_ubsec_err.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\e_os.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\e_os2.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\ssl\dtls1.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\ssl\kssl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\ssl\kssl_lcl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\ssl\srtp.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\ssl\ssl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\ssl\ssl2.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\ssl\ssl23.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\ssl\ssl3.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\ssl\ssl_locl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\ssl\tls1.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\test\ssltestlib.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\test\testutil.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\buildinf.h">
+    </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CopyFileToFolders Include="..\..\engines\e_4758cca_err.c">
-      <FileType>CppCode</FileType>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\engines\e_aep_err.c">
-      <FileType>CppCode</FileType>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\engines\e_atalla_err.c">
-      <FileType>CppCode</FileType>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\engines\e_capi_err.c">
-      <FileType>CppCode</FileType>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\engines\e_chil_err.c">
-      <FileType>CppCode</FileType>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\engines\e_cswift_err.c">
-      <FileType>CppCode</FileType>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\engines\e_gmp_err.c">
-      <FileType>CppCode</FileType>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\engines\e_nuron_err.c">
-      <FileType>CppCode</FileType>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\engines\e_sureware_err.c">
-      <FileType>CppCode</FileType>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\engines\e_ubsec_err.c">
-      <FileType>CppCode</FileType>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-  </ItemGroup>
-  <ItemGroup>
-    <CopyFileToFolders Include="..\..\crypto\buildinf.h">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)_work</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)_work</DestinationFolders>
-    </CopyFileToFolders>
-  </ItemGroup>
-  <ItemGroup>
-    <CopyFileToFolders Include="..\..\ms\applink.c">
-      <FileType>CppCode</FileType>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)include\openssl</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)include\openssl</DestinationFolders>
-    </CopyFileToFolders>
+    <CustomBuild Include="..\..\engines\e_4758cca_err.c">
+    </CustomBuild>
+    <CustomBuild Include="..\..\engines\e_aep_err.c">
+    </CustomBuild>
+    <CustomBuild Include="..\..\engines\e_atalla_err.c">
+    </CustomBuild>
+    <CustomBuild Include="..\..\engines\e_capi_err.c">
+    </CustomBuild>
+    <CustomBuild Include="..\..\engines\e_chil_err.c">
+    </CustomBuild>
+    <CustomBuild Include="..\..\engines\e_cswift_err.c">
+    </CustomBuild>
+    <CustomBuild Include="..\..\engines\e_gmp_err.c">
+    </CustomBuild>
+    <CustomBuild Include="..\..\engines\e_nuron_err.c">
+    </CustomBuild>
+    <CustomBuild Include="..\..\engines\e_sureware_err.c">
+    </CustomBuild>
+    <CustomBuild Include="..\..\engines\e_ubsec_err.c">
+    </CustomBuild>
+    <CustomBuild Include="..\..\ms\applink.c">
+    </CustomBuild>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -285,458 +285,458 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <CopyFileToFolders Include="..\..\crypto\aes\aes.h">
+    <CustomBuild Include="..\..\crypto\aes\aes.h">
       <Filter>Header Files\copy_to_include\crypto\aes</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\aes\aes_locl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\aes\aes_locl.h">
       <Filter>Header Files\copy_to_work\crypto\aes</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\asn1\asn1.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\asn1\asn1.h">
       <Filter>Header Files\copy_to_include\crypto\asn1</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\asn1\asn1t.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\asn1\asn1t.h">
       <Filter>Header Files\copy_to_include\crypto\asn1</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\asn1\asn1_locl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\asn1\asn1_locl.h">
       <Filter>Header Files\copy_to_work\crypto\asn1</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\asn1\asn1_mac.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\asn1\asn1_mac.h">
       <Filter>Header Files\copy_to_include\crypto\asn1</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\bf\bf_locl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\bf\bf_locl.h">
       <Filter>Header Files\copy_to_work\crypto\bf</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\bf\bf_pi.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\bf\bf_pi.h">
       <Filter>Header Files\copy_to_work\crypto\bf</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\bf\blowfish.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\bf\blowfish.h">
       <Filter>Header Files\copy_to_include\crypto\bf</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\bio\bio.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\bio\bio.h">
       <Filter>Header Files\copy_to_include\crypto\bio</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\bio\bio_lcl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\bio\bio_lcl.h">
       <Filter>Header Files\copy_to_work\crypto\bio</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\bn\bn.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\bn\bn.h">
       <Filter>Header Files\copy_to_include\crypto\bn</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\bn\bn_lcl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\bn\bn_lcl.h">
       <Filter>Header Files\copy_to_work\crypto\bn</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\bn\bn_prime.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\bn\bn_prime.h">
       <Filter>Header Files\copy_to_work\crypto\bn</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\bn_int.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\bn_int.h">
       <Filter>Header Files\copy_to_include\crypto</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\buffer\buffer.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\buffer\buffer.h">
       <Filter>Header Files\copy_to_include\crypto\buffer</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\camellia\camellia.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\camellia\camellia.h">
       <Filter>Header Files\copy_to_include\crypto\camellia</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\camellia\cmll_locl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\camellia\cmll_locl.h">
       <Filter>Header Files\copy_to_work\crypto\camellia</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\cast\cast.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\cast\cast.h">
       <Filter>Header Files\copy_to_include\crypto\cast</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\cast\cast_lcl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\cast\cast_lcl.h">
       <Filter>Header Files\copy_to_work\crypto\cast</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\cast\cast_s.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\cast\cast_s.h">
       <Filter>Header Files\copy_to_work\crypto\cast</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\cmac\cmac.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\cmac\cmac.h">
       <Filter>Header Files\copy_to_include\crypto\cmac</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\cms\cms.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\cms\cms.h">
       <Filter>Header Files\copy_to_include\crypto\cms</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\cms\cms_lcl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\cms\cms_lcl.h">
       <Filter>Header Files\copy_to_work\crypto\cms</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\comp\comp.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\comp\comp.h">
       <Filter>Header Files\copy_to_include\crypto\comp</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\conf\conf.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\conf\conf.h">
       <Filter>Header Files\copy_to_include\crypto\conf</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\conf\conf_api.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\conf\conf_api.h">
       <Filter>Header Files\copy_to_include\crypto\conf</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\conf\conf_def.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\conf\conf_def.h">
       <Filter>Header Files\copy_to_work\crypto\conf</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\constant_time_locl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\constant_time_locl.h">
       <Filter>Header Files\copy_to_work\crypto</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\cryptlib.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\cryptlib.h">
       <Filter>Header Files\copy_to_work\crypto</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\crypto.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\crypto.h">
       <Filter>Header Files\copy_to_include\crypto</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\des\des.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\des\des.h">
       <Filter>Header Files\copy_to_include\crypto\des</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\des\des_locl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\des\des_locl.h">
       <Filter>Header Files\copy_to_work\crypto\des</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\des\des_old.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\des\des_old.h">
       <Filter>Header Files\copy_to_include\crypto\des</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\des\des_ver.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\des\des_ver.h">
       <Filter>Header Files\copy_to_work\crypto\des</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\des\rpc_des.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\des\rpc_des.h">
       <Filter>Header Files\copy_to_work\crypto\des</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\des\spr.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\des\spr.h">
       <Filter>Header Files\copy_to_work\crypto\des</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\dh\dh.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\dh\dh.h">
       <Filter>Header Files\copy_to_include\crypto\dh</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\dsa\dsa.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\dsa\dsa.h">
       <Filter>Header Files\copy_to_include\crypto\dsa</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\dsa\dsa_locl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\dsa\dsa_locl.h">
       <Filter>Header Files\copy_to_work\crypto\dsa</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\dso\dso.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\dso\dso.h">
       <Filter>Header Files\copy_to_include\crypto\dso</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\ebcdic.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\ebcdic.h">
       <Filter>Header Files\copy_to_include\crypto</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\ecdh\ecdh.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\ecdh\ecdh.h">
       <Filter>Header Files\copy_to_include\crypto\ecdh</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\ecdh\ech_locl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\ecdh\ech_locl.h">
       <Filter>Header Files\copy_to_work\crypto\ecdh</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\ecdsa\ecdsa.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\ecdsa\ecdsa.h">
       <Filter>Header Files\copy_to_include\crypto\ecdsa</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\ecdsa\ecs_locl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\ecdsa\ecs_locl.h">
       <Filter>Header Files\copy_to_work\crypto\ecdsa</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\ec\ec.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\ec\ec.h">
       <Filter>Header Files\copy_to_include\crypto\ec</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\ec\ec_lcl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\ec\ec_lcl.h">
       <Filter>Header Files\copy_to_work\crypto\ec</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\engine\engine.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\engine\engine.h">
       <Filter>Header Files\copy_to_include\crypto\engine</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\err\err.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\err\err.h">
       <Filter>Header Files\copy_to_include\crypto\err</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\evp\evp.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\evp\evp.h">
       <Filter>Header Files\copy_to_include\crypto\evp</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\evp\evp_locl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\evp\evp_locl.h">
       <Filter>Header Files\copy_to_work\crypto\evp</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\hmac\hmac.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\hmac\hmac.h">
       <Filter>Header Files\copy_to_include\crypto\hmac</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\idea\idea.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\idea\idea.h">
       <Filter>Header Files\copy_to_include\crypto\idea</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\idea\idea_lcl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\idea\idea_lcl.h">
       <Filter>Header Files\copy_to_work\crypto\idea</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\krb5\krb5_asn.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\krb5\krb5_asn.h">
       <Filter>Header Files\copy_to_include\crypto\krb5</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\lhash\lhash.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\lhash\lhash.h">
       <Filter>Header Files\copy_to_include\crypto\lhash</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\md32_common.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\md32_common.h">
       <Filter>Header Files\copy_to_work\crypto</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\md4\md4.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\md4\md4.h">
       <Filter>Header Files\copy_to_include\crypto\md4</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\md4\md4_locl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\md4\md4_locl.h">
       <Filter>Header Files\copy_to_work\crypto\md4</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\md5\md5.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\md5\md5.h">
       <Filter>Header Files\copy_to_include\crypto\md5</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\md5\md5_locl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\md5\md5_locl.h">
       <Filter>Header Files\copy_to_work\crypto\md5</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\mdc2\mdc2.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\mdc2\mdc2.h">
       <Filter>Header Files\copy_to_include\crypto\mdc2</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\modes\modes.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\modes\modes.h">
       <Filter>Header Files\copy_to_include\crypto\modes</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\modes\modes_lcl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\modes\modes_lcl.h">
       <Filter>Header Files\copy_to_work\crypto\modes</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\objects\objects.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\objects\objects.h">
       <Filter>Header Files\copy_to_include\crypto\objects</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\objects\obj_dat.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\objects\obj_dat.h">
       <Filter>Header Files\copy_to_work\crypto\objects</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\objects\obj_mac.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\objects\obj_mac.h">
       <Filter>Header Files\copy_to_include\crypto\objects</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\objects\obj_xref.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\objects\obj_xref.h">
       <Filter>Header Files\copy_to_work\crypto\objects</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\ocsp\ocsp.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\ocsp\ocsp.h">
       <Filter>Header Files\copy_to_include\crypto\ocsp</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\opensslconf.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\opensslconf.h">
       <Filter>Header Files\copy_to_include\crypto</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\opensslv.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\opensslv.h">
       <Filter>Header Files\copy_to_include\crypto</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\ossl_typ.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\ossl_typ.h">
       <Filter>Header Files\copy_to_include\crypto</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\o_dir.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\o_dir.h">
       <Filter>Header Files\copy_to_work\crypto</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\o_str.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\o_str.h">
       <Filter>Header Files\copy_to_work\crypto</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\o_time.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\o_time.h">
       <Filter>Header Files\copy_to_work\crypto</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\pem\pem.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\pem\pem.h">
       <Filter>Header Files\copy_to_include\crypto\pem</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\pem\pem2.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\pem\pem2.h">
       <Filter>Header Files\copy_to_include\crypto\pem</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\pkcs12\pkcs12.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\pkcs12\pkcs12.h">
       <Filter>Header Files\copy_to_include\crypto\pkcs12</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\pkcs7\pkcs7.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\pkcs7\pkcs7.h">
       <Filter>Header Files\copy_to_include\crypto\pkcs7</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\pqueue\pqueue.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\pqueue\pqueue.h">
       <Filter>Header Files\copy_to_include\crypto\pqueue</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\rand\rand.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\rand\rand.h">
       <Filter>Header Files\copy_to_include\crypto\rand</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\rc2\rc2.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\rc2\rc2.h">
       <Filter>Header Files\copy_to_include\crypto\rc2</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\rc2\rc2_locl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\rc2\rc2_locl.h">
       <Filter>Header Files\copy_to_work\crypto\rc2</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\rc4\rc4.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\rc4\rc4.h">
       <Filter>Header Files\copy_to_include\crypto\rc4</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\rc4\rc4_locl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\rc4\rc4_locl.h">
       <Filter>Header Files\copy_to_work\crypto\rc4</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\ripemd\ripemd.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\ripemd\ripemd.h">
       <Filter>Header Files\copy_to_include\crypto\ripemd</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\ripemd\rmdconst.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\ripemd\rmdconst.h">
       <Filter>Header Files\copy_to_work\crypto\ripemd</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\ripemd\rmd_locl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\ripemd\rmd_locl.h">
       <Filter>Header Files\copy_to_work\crypto\ripemd</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\rsa\rsa.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\rsa\rsa.h">
       <Filter>Header Files\copy_to_include\crypto\rsa</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\seed\seed.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\seed\seed.h">
       <Filter>Header Files\copy_to_include\crypto\seed</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\seed\seed_locl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\seed\seed_locl.h">
       <Filter>Header Files\copy_to_work\crypto\seed</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\sha\sha.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\sha\sha.h">
       <Filter>Header Files\copy_to_include\crypto\sha</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\sha\sha_locl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\sha\sha_locl.h">
       <Filter>Header Files\copy_to_work\crypto\sha</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\srp\srp.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\srp\srp.h">
       <Filter>Header Files\copy_to_include\crypto\srp</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\stack\safestack.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\stack\safestack.h">
       <Filter>Header Files\copy_to_include\crypto\stack</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\stack\stack.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\stack\stack.h">
       <Filter>Header Files\copy_to_include\crypto\stack</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\symhacks.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\symhacks.h">
       <Filter>Header Files\copy_to_include\crypto</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\ts\ts.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\ts\ts.h">
       <Filter>Header Files\copy_to_include\crypto\ts</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\txt_db\txt_db.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\txt_db\txt_db.h">
       <Filter>Header Files\copy_to_include\crypto\txt_db</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\ui\ui.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\ui\ui.h">
       <Filter>Header Files\copy_to_include\crypto\ui</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\ui\ui_compat.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\ui\ui_compat.h">
       <Filter>Header Files\copy_to_include\crypto\ui</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\ui\ui_locl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\ui\ui_locl.h">
       <Filter>Header Files\copy_to_work\crypto\ui</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\whrlpool\whrlpool.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\whrlpool\whrlpool.h">
       <Filter>Header Files\copy_to_include\crypto\whrlpool</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\whrlpool\wp_locl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\whrlpool\wp_locl.h">
       <Filter>Header Files\copy_to_work\crypto\whrlpool</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\x509v3\pcy_int.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\x509v3\pcy_int.h">
       <Filter>Header Files\copy_to_work\crypto\x509v3</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\x509v3\x509v3.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\x509v3\x509v3.h">
       <Filter>Header Files\copy_to_include\crypto\x509v3</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\x509\vpm_int.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\x509\vpm_int.h">
       <Filter>Header Files\copy_to_work\crypto\x509</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\x509\x509.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\x509\x509.h">
       <Filter>Header Files\copy_to_include\crypto\x509</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\x509\x509_vfy.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\x509\x509_vfy.h">
       <Filter>Header Files\copy_to_include\crypto\x509</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\engines\e_4758cca_err.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\engines\e_4758cca_err.h">
       <Filter>Header Files\copy_to_work\engines</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\engines\e_aep_err.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\engines\e_aep_err.h">
       <Filter>Header Files\copy_to_work\engines</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\engines\e_atalla_err.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\engines\e_atalla_err.h">
       <Filter>Header Files\copy_to_work\engines</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\engines\e_capi_err.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\engines\e_capi_err.h">
       <Filter>Header Files\copy_to_work\engines</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\engines\e_chil_err.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\engines\e_chil_err.h">
       <Filter>Header Files\copy_to_work\engines</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\engines\e_cswift_err.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\engines\e_cswift_err.h">
       <Filter>Header Files\copy_to_work\engines</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\engines\e_gmp_err.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\engines\e_gmp_err.h">
       <Filter>Header Files\copy_to_work\engines</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\engines\e_nuron_err.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\engines\e_nuron_err.h">
       <Filter>Header Files\copy_to_work\engines</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\engines\e_sureware_err.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\engines\e_sureware_err.h">
       <Filter>Header Files\copy_to_work\engines</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\engines\e_ubsec_err.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\engines\e_ubsec_err.h">
       <Filter>Header Files\copy_to_work\engines</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\e_os.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\e_os.h">
       <Filter>Header Files\copy_to_work</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\e_os2.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\e_os2.h">
       <Filter>Header Files\copy_to_include</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\ssl\dtls1.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\ssl\dtls1.h">
       <Filter>Header Files\copy_to_include\ssl</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\ssl\kssl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\ssl\kssl.h">
       <Filter>Header Files\copy_to_include\ssl</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\ssl\kssl_lcl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\ssl\kssl_lcl.h">
       <Filter>Header Files\copy_to_work\ssl</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\ssl\srtp.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\ssl\srtp.h">
       <Filter>Header Files\copy_to_include\ssl</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\ssl\ssl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\ssl\ssl.h">
       <Filter>Header Files\copy_to_include\ssl</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\ssl\ssl2.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\ssl\ssl2.h">
       <Filter>Header Files\copy_to_include\ssl</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\ssl\ssl23.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\ssl\ssl23.h">
       <Filter>Header Files\copy_to_include\ssl</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\ssl\ssl3.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\ssl\ssl3.h">
       <Filter>Header Files\copy_to_include\ssl</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\ssl\ssl_locl.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\ssl\ssl_locl.h">
       <Filter>Header Files\copy_to_work\ssl</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\ssl\tls1.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\ssl\tls1.h">
       <Filter>Header Files\copy_to_include\ssl</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\test\ssltestlib.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\test\ssltestlib.h">
       <Filter>Header Files\copy_to_work\test</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\test\testutil.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\test\testutil.h">
       <Filter>Header Files\copy_to_work\test</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\engines\e_4758cca_err.c">
+    </CustomBuild>
+    <CustomBuild Include="..\..\engines\e_4758cca_err.c">
       <Filter>Header Files\copy_to_work\engines</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\engines\e_aep_err.c">
+    </CustomBuild>
+    <CustomBuild Include="..\..\engines\e_aep_err.c">
       <Filter>Header Files\copy_to_work\engines</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\engines\e_atalla_err.c">
+    </CustomBuild>
+    <CustomBuild Include="..\..\engines\e_atalla_err.c">
       <Filter>Header Files\copy_to_work\engines</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\engines\e_capi_err.c">
+    </CustomBuild>
+    <CustomBuild Include="..\..\engines\e_capi_err.c">
       <Filter>Header Files\copy_to_work\engines</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\engines\e_chil_err.c">
+    </CustomBuild>
+    <CustomBuild Include="..\..\engines\e_chil_err.c">
       <Filter>Header Files\copy_to_work\engines</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\engines\e_cswift_err.c">
+    </CustomBuild>
+    <CustomBuild Include="..\..\engines\e_cswift_err.c">
       <Filter>Header Files\copy_to_work\engines</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\engines\e_gmp_err.c">
+    </CustomBuild>
+    <CustomBuild Include="..\..\engines\e_gmp_err.c">
       <Filter>Header Files\copy_to_work\engines</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\engines\e_nuron_err.c">
+    </CustomBuild>
+    <CustomBuild Include="..\..\engines\e_nuron_err.c">
       <Filter>Header Files\copy_to_work\engines</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\engines\e_sureware_err.c">
+    </CustomBuild>
+    <CustomBuild Include="..\..\engines\e_sureware_err.c">
       <Filter>Header Files\copy_to_work\engines</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\engines\e_ubsec_err.c">
+    </CustomBuild>
+    <CustomBuild Include="..\..\engines\e_ubsec_err.c">
       <Filter>Header Files\copy_to_work\engines</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\apps\apps.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\apps\apps.h">
       <Filter>Header Files\copy_to_work\apps</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\apps\progs.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\apps\progs.h">
       <Filter>Header Files\copy_to_work\apps</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\apps\s_apps.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\apps\s_apps.h">
       <Filter>Header Files\copy_to_work\apps</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\apps\testdsa.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\apps\testdsa.h">
       <Filter>Header Files\copy_to_work\apps</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\apps\testrsa.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\apps\testrsa.h">
       <Filter>Header Files\copy_to_work\apps</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\crypto\buildinf.h">
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\buildinf.h">
       <Filter>Header Files\copy_to_work\crypto</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\ms\applink.c">
+    </CustomBuild>
+    <CustomBuild Include="..\..\ms\applink.c">
       <Filter>Header Files\copy_to_include\ms</Filter>
-    </CopyFileToFolders>
+    </CustomBuild>
   </ItemGroup>
 </Project>
