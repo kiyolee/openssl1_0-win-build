@@ -327,9 +327,6 @@
     <CustomBuild Include="..\..\crypto\bn\bn_prime.h">
       <Filter>Header Files\copy_to_work\crypto\bn</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\..\crypto\bn_int.h">
-      <Filter>Header Files\copy_to_include\crypto</Filter>
-    </CustomBuild>
     <CustomBuild Include="..\..\crypto\buffer\buffer.h">
       <Filter>Header Files\copy_to_include\crypto\buffer</Filter>
     </CustomBuild>
@@ -737,6 +734,9 @@
     </CustomBuild>
     <CustomBuild Include="..\..\ms\applink.c">
       <Filter>Header Files\copy_to_include\ms</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\crypto\bn_int.h">
+      <Filter>Header Files\copy_to_work\crypto</Filter>
     </CustomBuild>
   </ItemGroup>
 </Project>
