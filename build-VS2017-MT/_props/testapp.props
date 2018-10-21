@@ -11,6 +11,7 @@
       <StringPooling>true</StringPooling>
       <SDLCheck>true</SDLCheck>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
     <Link>
       <AdditionalDependencies>setargv.obj;$(OutDir)libeay32.lib;$(OutDir)ssleay32.lib;%(AdditionalDependencies)</AdditionalDependencies>
@@ -29,6 +30,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
     <Link>
       <AdditionalDependencies>setargv.obj;$(OutDir)libeay32.lib;$(OutDir)ssleay32.lib;%(AdditionalDependencies)</AdditionalDependencies>
@@ -42,6 +44,7 @@
       <StringPooling>true</StringPooling>
       <SDLCheck>true</SDLCheck>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
     <Link>
       <AdditionalDependencies>setargv.obj;$(OutDir)libeay32.lib;$(OutDir)ssleay32.lib;%(AdditionalDependencies)</AdditionalDependencies>
@@ -60,6 +63,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
     <Link>
       <AdditionalDependencies>setargv.obj;$(OutDir)libeay32.lib;$(OutDir)ssleay32.lib;%(AdditionalDependencies)</AdditionalDependencies>
