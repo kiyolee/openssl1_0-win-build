@@ -43,3 +43,27 @@ Make sure both perl and nasm can be found through command path.
 1. Multiple Visual Studio versions build happily sharing the same build directory.
 2. Build both 32-bit (x86) and 64-bit (x64) binaries in one solution.
 3. Assembly sources are generated from original perlasm scripts. No pre-generated assembly source are checked in.
+4. Keyboard is optional. (Once this repository is cloned.)
+
+### Testing:
+
+To test one set of output binaries that use DLLs:
+
+> \> cd {somewhere}\openssl1_0-win-build\
+> \> ms\test_one.cmd build-{vsver}\\{outdir}
+
+where build-{vsver} is one of the VS build directories and {outdir} is one of the following:\
+* Release (32-bit release build)\
+* Debug (32-bit debug build)\
+* x64\Release (64-bit release build)\
+* x64\Debug (64-bit debug build)\
+
+To test one set of output binaries that use static libraries:
+
+> \> cd {somewhere}\openssl1_0-win-build\
+> \> ms\test_one.cmd build-{vsver}\\{outdir} -static
+
+To test all binaries that have been built:
+
+> \> cd {somewhere}\openssl1_0-win-build\
+> \> ms\test_all.cmd
