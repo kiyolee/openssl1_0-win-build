@@ -15,4 +15,13 @@ build-*/tests/*/x64/Debug
 build-*/tests/*/x64/Release
 build-*/x64/Debug
 build-*/x64/Release
+ms/.rnd
+ms/certCA.srl
+ms/certCA.ss
+ms/certU.ss
+ms/keyCA.ss
+ms/keyU.ss
+ms/req2CA.ss
+ms/reqCA.ss
+ms/reqU.ss
 tmp
