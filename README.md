@@ -52,7 +52,7 @@ To test one set of output binaries that use DLLs:
 > \> cd {somewhere}\openssl1_0-win-build\
 > \> ms\test_one.cmd build-{vsver}\\{outdir}
 
-where build-{vsver} is one of the VS build directories and {outdir} is one of the following:\
+where build-{vsver} is one of the VS build directories and {outdir} is one of the following:
 * Release (32-bit release build)
 * Debug (32-bit debug build)
 * x64\Release (64-bit release build)
