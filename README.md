@@ -22,6 +22,8 @@ Basically, in a command prompt:
 
 Build zlib first and then openssl1_0, with the same corresponding Visual Studio solution of course.
 
+Note that only zlib static libraries are used.
+
 ### Third Party Tools:
 
 The following third party tools are required:
