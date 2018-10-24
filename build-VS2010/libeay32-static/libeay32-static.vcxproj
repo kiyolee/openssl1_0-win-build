@@ -1364,4 +1364,9 @@ $(PERL) %(FullPath) nasm $(OutDir)_work\static\%(Filename).asm &amp;&amp; $(NASM
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
+  <Target Name="AfterClean">
+    <Exec Command="if exist $(OutDir)_work\static\ del $(OutDir)_work\static\*.asm /F /Q 2&gt;nul" />
+    <Exec Command="if exist $(OutDir)_work\static\ rmdir $(OutDir)_work\static 2&gt;nul" />
+    <Exec Command="if exist $(OutDir)_work\ rmdir $(OutDir)_work 2&gt;nul" />
+  </Target>
 </Project>

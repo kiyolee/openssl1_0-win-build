@@ -204,4 +204,7 @@ popd</Command>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
+  <Target Name="AfterClean">
+    <Exec Command="if exist $(OutDir)_work\ rmdir $(OutDir)_work 2&gt;nul" />
+  </Target>
 </Project>
