@@ -24,6 +24,13 @@ Build zlib first and then openssl1_0, with the same corresponding Visual Studio 
 
 Note that only zlib static libraries are used.
 
+### Highlights:
+
+1. Multiple Visual Studio versions build happily sharing the same build directory.
+2. Build both 32-bit (x86) and 64-bit (x64) binaries in one solution.
+3. Assembly sources are generated from original perlasm scripts. No pre-generated assembly source are checked in.
+4. Keyboard is optional. (Once this repository is cloned.)
+
 ### Build Requirements:
 
 The following third party tools are required:
@@ -39,13 +46,6 @@ The following third party tools are required:
    Download NASM from https://www.nasm.us.
 
 Make sure both perl and nasm can be found through command path.
-
-### Highlights:
-
-1. Multiple Visual Studio versions build happily sharing the same build directory.
-2. Build both 32-bit (x86) and 64-bit (x64) binaries in one solution.
-3. Assembly sources are generated from original perlasm scripts. No pre-generated assembly source are checked in.
-4. Keyboard is optional. (Once this repository is cloned.)
 
 ### Testing:
 
