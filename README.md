@@ -24,7 +24,7 @@ Build zlib first and then openssl1_0, with the same corresponding Visual Studio 
 
 Note that only zlib static libraries are used.
 
-### Third Party Tools:
+### Build Requirements:
 
 The following third party tools are required:
 
@@ -69,3 +69,22 @@ To test all binaries that have been built:
 
 > \> cd {somewhere}\openssl1_0-win-build\
 > \> ms\test_all.cmd
+
+### Using The Build:
+
+It is not necessary to install OpenSSL to develop applications linking to
+OpenSSL libraries built with this repository.
+
+Every $(OutDir) for different combinations of Platform and Configuration
+from a solution has a copy of "include\openssl" which is the same as what
+get installed like the official package. Note that the include directories
+are exactly the same between different Platforms and/or Configurations. The
+duplication is required to facilitate batch/parallel builds.
+
+For a project to use OpenSSL from this repository, simply add "$(OutDir)\include"
+to the include path and link to libraries from $(OutDir). Note that $(OutDir) is
+just a reference here and may need specific value for the project depending on
+the combination of Visual Studio version, Platform and Configuration required.
+
+If static libraries (libeay32-static.lib and ssleay32-static.lib) are used,
+libz-static.lib (from zlib-win-build) is needed as well.
