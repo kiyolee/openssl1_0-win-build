@@ -1723,7 +1723,6 @@ e8dec2560ceeffcd87c1a4f4b2a7337c  util/ck_errf.pl
 82d581c145304f93f57bdece65c090d1  util/copy-if-different.pl
 f950f351acc1edf051c978d14709e995  util/cygwin.sh
 38b5eebbbc9a06a76b2acafb5a7c85f3  util/deleof.pl
-bd48e79185d7225366356e01e2a130d6  util/deltree.com
 f18344d17f2f305cba33d88c88a0e5cf  util/dirname.pl
 bb15a1ef84831cdcf228ac3ca6c705e5  util/do_ms.sh
 a142b85d75c1908ce7ec5576b326f50c  util/domd

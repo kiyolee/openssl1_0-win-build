@@ -1723,7 +1723,6 @@ util/copy.pl
 util/copy-if-different.pl
 util/cygwin.sh
 util/deleof.pl
-util/deltree.com
 util/dirname.pl
 util/do_ms.sh
 util/domd
