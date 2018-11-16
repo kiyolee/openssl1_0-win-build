@@ -169,9 +169,6 @@
     <ClCompile Include="..\..\ssl\t1_trce.c" />
     <ClCompile Include="..\..\ssl\tls_srp.c" />
   </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="..\..\ms\version32.rc" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
