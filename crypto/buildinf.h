@@ -8,23 +8,23 @@
 
 #ifdef _WIN64
 #ifdef KL_OSSL10_PLATFORM_VC_WIN64A
+  #define PLATFORM "VC-WIN64A"
+  #define DATE "date unspecified"
   #ifdef _DEBUG
     #define CFLAGS_OPTS " -GF -GS -Gd -Gm- -Od -RTC1 -W3 -WX- -Zi"
   #else
     #define CFLAGS_OPTS " -GF -GL -GS -Gd -Gm- -Gy -Ob2 -Oi -Ox -W3 -WX- -Zi"
   #endif
-  #define PLATFORM "VC-WIN64A"
-  #define DATE "date unspecified"
 #endif
 #else
 #ifdef KL_OSSL10_PLATFORM_VC_WIN32
+  #define PLATFORM "VC-WIN32"
+  #define DATE "date unspecified"
   #ifdef _DEBUG
     #define CFLAGS_OPTS " -GF -GS -Gd -Gm- -Od -Oy- -RTC1 -W3 -WX- -Zi"
   #else
     #define CFLAGS_OPTS " -GF -GL -GS -Gd -Gm- -Gy -Ob2 -Oi -Ox -Oy- -W3 -WX- -Zi"
   #endif
-  #define PLATFORM "VC-WIN32"
-  #define DATE "date unspecified"
 #endif
 #endif
 

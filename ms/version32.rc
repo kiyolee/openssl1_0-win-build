@@ -12,7 +12,11 @@ LANGUAGE 0x09,0x01
   FILEFLAGS 0x00L
 #endif
   FILEOS VOS__WINDOWS32
+#if defined(OPENSSL)
+  FILETYPE VFT_APP
+#else
   FILETYPE VFT_DLL
+#endif
   FILESUBTYPE 0x0L
 BEGIN
     BLOCK "StringFileInfo"
@@ -21,7 +25,11 @@ BEGIN
 	BEGIN
 	    // Required:	    
 	    VALUE "CompanyName", "The OpenSSL Project, http://www.openssl.org/\0"
-	    VALUE "FileDescription", "OpenSSL Shared Library\0"
+#if defined(OPENSSL)
+	    VALUE "FileDescription", "OpenSSL application\0"
+#else
+	    VALUE "FileDescription", "OpenSSL library\0"
+#endif
 	    VALUE "FileVersion", "1.0.2p\0"
 #if defined(CRYPTO)
 	    VALUE "InternalName", "libeay32\0"
@@ -30,8 +38,8 @@ BEGIN
 	    VALUE "InternalName", "ssleay32\0"
 	    VALUE "OriginalFilename", "ssleay32.dll\0"
 #elif defined(OPENSSL)
-    VALUE "InternalName", "openssl\0"
-    VALUE "OriginalFilename", "openssl.exe\0"
+	    VALUE "InternalName", "openssl\0"
+	    VALUE "OriginalFilename", "openssl.exe\0"
 #endif
 	    VALUE "ProductName", "The OpenSSL Toolkit\0"
 	    VALUE "ProductVersion", "1.0.2p\0"
