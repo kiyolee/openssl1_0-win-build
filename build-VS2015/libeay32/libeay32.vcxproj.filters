@@ -2043,6 +2043,9 @@
     <ClCompile Include="..\..\crypto\whrlpool\wp_block.c">
       <Filter>Source Files\crypto\whrlpool\x86</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\crypto\getenv.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\ms\uplink.c">
       <Filter>Source Files\ms</Filter>
     </ClCompile>

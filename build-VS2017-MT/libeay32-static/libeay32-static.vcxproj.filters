@@ -2034,6 +2034,9 @@
     <ClCompile Include="..\..\crypto\whrlpool\wp_block.c">
       <Filter>Source Files\crypto\whrlpool\x86</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\crypto\getenv.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\..\crypto\modes\asm\aesni-gcm-x86_64.pl">
