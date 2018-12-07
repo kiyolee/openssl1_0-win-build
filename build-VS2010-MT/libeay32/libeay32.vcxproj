@@ -315,10 +315,10 @@
     <ClCompile Include="..\..\crypto\cpt_err.c" />
     <ClCompile Include="..\..\crypto\cryptlib.c" />
     <ClCompile Include="..\..\crypto\cversion.c">
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">KL_OSSL10_PLATFORM_VC_WIN32;KL_OSSL10_BUILD;KL_OSSL10_USE_LIBCMT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">KL_OSSL10_PLATFORM_VC_WIN32;KL_OSSL10_BUILD;KL_OSSL10_USE_LIBCMT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">KL_OSSL10_PLATFORM_VC_WIN64A;KL_OSSL10_BUILD;KL_OSSL10_USE_LIBCMT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">KL_OSSL10_PLATFORM_VC_WIN64A;KL_OSSL10_BUILD;KL_OSSL10_USE_LIBCMT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">KL_OSSL10_PLATFORM_VC_WIN32;KL_OSSL10_BUILD;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">KL_OSSL10_PLATFORM_VC_WIN32;KL_OSSL10_BUILD;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">KL_OSSL10_PLATFORM_VC_WIN64A;KL_OSSL10_BUILD;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">KL_OSSL10_PLATFORM_VC_WIN64A;KL_OSSL10_BUILD;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <ClCompile Include="..\..\crypto\des\cbc_cksm.c" />
     <ClCompile Include="..\..\crypto\des\cbc_enc.c" />
