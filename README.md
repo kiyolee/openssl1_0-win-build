@@ -2,7 +2,7 @@
 
 openssl-1.0 Windows build with Visual Studio.
 
-This version is openssl-1.0.2q.
+This version is openssl-1.0.2r.
 
 See win-build-info for general information about the
 win-build effort.
