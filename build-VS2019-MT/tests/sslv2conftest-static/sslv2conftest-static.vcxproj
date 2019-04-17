@@ -23,7 +23,6 @@
     <ProjectGuid>{FC88E9AC-E7D0-4092-985A-58127681B373}</ProjectGuid>
     <RootNamespace>sslv2conftest-static</RootNamespace>
     <ProjectName>sslv2conftest</ProjectName>
-    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

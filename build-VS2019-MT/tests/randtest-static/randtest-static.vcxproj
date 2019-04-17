@@ -23,7 +23,6 @@
     <ProjectGuid>{B4FCB882-9A2A-4E69-957D-3FE648E4B77B}</ProjectGuid>
     <RootNamespace>randtest-static</RootNamespace>
     <ProjectName>randtest</ProjectName>
-    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

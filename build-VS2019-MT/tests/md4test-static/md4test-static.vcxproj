@@ -23,7 +23,6 @@
     <ProjectGuid>{E4DECD60-225B-4909-90DC-96B324864E82}</ProjectGuid>
     <RootNamespace>md4test-static</RootNamespace>
     <ProjectName>md4test</ProjectName>
-    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

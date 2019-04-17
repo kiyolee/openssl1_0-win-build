@@ -23,7 +23,6 @@
     <ProjectGuid>{AD98CF0B-0E27-40EA-958B-D63C8C69B8A9}</ProjectGuid>
     <RootNamespace>ecdhtest-static</RootNamespace>
     <ProjectName>ecdhtest</ProjectName>
-    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

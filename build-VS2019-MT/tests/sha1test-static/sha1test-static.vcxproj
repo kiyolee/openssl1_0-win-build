@@ -23,7 +23,6 @@
     <ProjectGuid>{B7E247F3-D154-46A8-8686-A761472C0428}</ProjectGuid>
     <RootNamespace>sha1test-static</RootNamespace>
     <ProjectName>sha1test</ProjectName>
-    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

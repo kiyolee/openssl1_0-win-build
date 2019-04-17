@@ -23,7 +23,6 @@
     <ProjectGuid>{663922DF-5E72-477F-8B32-27F1F613EE5A}</ProjectGuid>
     <RootNamespace>heartbeat_test-static</RootNamespace>
     <ProjectName>heartbeat_test</ProjectName>
-    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

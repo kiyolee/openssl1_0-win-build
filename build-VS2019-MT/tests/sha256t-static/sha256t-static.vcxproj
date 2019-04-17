@@ -23,7 +23,6 @@
     <ProjectGuid>{36F56749-BA61-4113-8FF7-B59A867F60B9}</ProjectGuid>
     <RootNamespace>sha256t-static</RootNamespace>
     <ProjectName>sha256t</ProjectName>
-    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

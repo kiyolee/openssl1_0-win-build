@@ -23,7 +23,6 @@
     <ProjectGuid>{DEC6DF58-3A21-4D15-AB7D-95B337AE8252}</ProjectGuid>
     <RootNamespace>wp_test-static</RootNamespace>
     <ProjectName>wp_test</ProjectName>
-    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
