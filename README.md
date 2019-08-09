@@ -24,6 +24,9 @@ Build zlib first and then openssl1_0, with the same corresponding Visual Studio 
 
 Note that only zlib static libraries are used.
 
+This repository tracks the openssl 1.0 series.
+For openssl 1.1, check repository https://github.com/kiyolee/openssl1_1-win-build.git.
+
 ### Highlights:
 
 1. Multiple Visual Studio versions build happily sharing the same build directory.
