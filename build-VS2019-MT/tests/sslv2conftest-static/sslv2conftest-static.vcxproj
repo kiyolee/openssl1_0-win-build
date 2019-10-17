@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <VCProjectVersion>15.0</VCProjectVersion>
+    <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{FC88E9AC-E7D0-4092-985A-58127681B373}</ProjectGuid>
     <RootNamespace>sslv2conftest-static</RootNamespace>
     <ProjectName>sslv2conftest</ProjectName>

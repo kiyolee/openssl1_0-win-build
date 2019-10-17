@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <VCProjectVersion>15.0</VCProjectVersion>
+    <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{F4BFE0C9-E134-454C-AA84-CF9E23F37CA5}</ProjectGuid>
     <RootNamespace>sha512t-static</RootNamespace>
     <ProjectName>sha512t</ProjectName>

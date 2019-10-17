@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <VCProjectVersion>15.0</VCProjectVersion>
+    <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{EAE05308-489D-4B62-9784-2434571F82CD}</ProjectGuid>
     <RootNamespace>shatest-static</RootNamespace>
     <ProjectName>shatest</ProjectName>

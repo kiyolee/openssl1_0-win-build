@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <VCProjectVersion>15.0</VCProjectVersion>
+    <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{86AC9E3F-757E-4D1A-BE66-B70C144539C0}</ProjectGuid>
     <RootNamespace>heartbeat_test</RootNamespace>
   </PropertyGroup>

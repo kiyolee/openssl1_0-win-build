@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <VCProjectVersion>15.0</VCProjectVersion>
+    <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{B20E0938-EFAA-428C-9D3C-0386214195DD}</ProjectGuid>
     <RootNamespace>md5test-static</RootNamespace>
     <ProjectName>md5test</ProjectName>

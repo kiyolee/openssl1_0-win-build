@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <VCProjectVersion>15.0</VCProjectVersion>
+    <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{B46073C6-FD14-4FF1-A013-637CDED1A219}</ProjectGuid>
     <RootNamespace>sha256t</RootNamespace>
   </PropertyGroup>

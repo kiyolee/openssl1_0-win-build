@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <VCProjectVersion>15.0</VCProjectVersion>
+    <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{DAF4495F-D6F7-40E2-A4F5-0D713DCC9A49}</ProjectGuid>
     <RootNamespace>ssltest</RootNamespace>
   </PropertyGroup>

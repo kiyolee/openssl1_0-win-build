@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <VCProjectVersion>15.0</VCProjectVersion>
+    <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{B4FCB882-9A2A-4E69-957D-3FE648E4B77B}</ProjectGuid>
     <RootNamespace>randtest-static</RootNamespace>
     <ProjectName>randtest</ProjectName>

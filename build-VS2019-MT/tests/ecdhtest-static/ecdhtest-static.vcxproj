@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <VCProjectVersion>15.0</VCProjectVersion>
+    <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{AD98CF0B-0E27-40EA-958B-D63C8C69B8A9}</ProjectGuid>
     <RootNamespace>ecdhtest-static</RootNamespace>
     <ProjectName>ecdhtest</ProjectName>

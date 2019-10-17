@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <VCProjectVersion>15.0</VCProjectVersion>
+    <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{E4DECD60-225B-4909-90DC-96B324864E82}</ProjectGuid>
     <RootNamespace>md4test-static</RootNamespace>
     <ProjectName>md4test</ProjectName>

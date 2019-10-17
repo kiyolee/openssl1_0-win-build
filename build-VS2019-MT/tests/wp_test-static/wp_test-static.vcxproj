@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <VCProjectVersion>15.0</VCProjectVersion>
+    <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{DEC6DF58-3A21-4D15-AB7D-95B337AE8252}</ProjectGuid>
     <RootNamespace>wp_test-static</RootNamespace>
     <ProjectName>wp_test</ProjectName>

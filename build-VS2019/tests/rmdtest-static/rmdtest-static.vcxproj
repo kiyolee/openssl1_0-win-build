@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <VCProjectVersion>15.0</VCProjectVersion>
+    <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{7ABF0B01-DDD2-457A-8772-2CEB6B421326}</ProjectGuid>
     <RootNamespace>rmdtest-static</RootNamespace>
     <ProjectName>rmdtest</ProjectName>

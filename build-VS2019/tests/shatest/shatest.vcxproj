@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <VCProjectVersion>15.0</VCProjectVersion>
+    <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{CD18CC0B-C58B-4F1D-9BF4-714B52EBC9BA}</ProjectGuid>
     <RootNamespace>shatest</RootNamespace>
   </PropertyGroup>
