@@ -2,7 +2,7 @@
 
 openssl-1.0 Windows build with Visual Studio.
 
-This version is openssl-1.0.2t.
+This version is openssl-1.0.2u.
 
 To build, simply open the required solution file, and
 you know how to use Visual Studio, right?
